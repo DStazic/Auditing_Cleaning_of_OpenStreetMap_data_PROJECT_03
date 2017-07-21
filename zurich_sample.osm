@@ -1,0 +1,1678 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='Overpass API'>
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base='2017-05-15T16:51:17Z'/>
+<bounds minlat='47.2734000' maxlon='8.8031000' minlon='8.2700000' maxlat='47.4815000'/>
+<node changeset="48269111" id="453648" lat="47.4545812" lon="8.2698453" timestamp="2017-04-29T22:45:46Z" uid="7412" user="mjulius" version="5" />
+  <node changeset="46078050" id="27794963" lat="47.3087961" lon="8.5994648" timestamp="2017-02-14T12:41:32Z" uid="2110714" user="captain_slow" version="3" />
+  <node changeset="11590461" id="33284339" lat="47.3701244" lon="8.3350587" timestamp="2012-05-13T20:37:25Z" uid="329268" user="chrissa" version="3" />
+  <node changeset="11245004" id="33851770" lat="47.3998978" lon="8.4206735" timestamp="2012-04-09T20:28:48Z" uid="334389" user="ueliw0" version="10" />
+  <node changeset="718537" id="60483971" lat="47.2875838" lon="8.5332339" timestamp="2008-11-08T20:46:14Z" uid="67372" user="gabisoft" version="4" />
+  <node changeset="6845646" id="75750772" lat="47.3398056" lon="8.5350873" timestamp="2011-01-03T01:22:40Z" uid="49111" user="Markus B" version="3" />
+  <node changeset="6691330" id="92990893" lat="47.3852394" lon="8.5366705" timestamp="2010-12-17T22:05:14Z" uid="334389" user="ueliw0" version="15" />
+  <node changeset="8096190" id="97833141" lat="47.4468791" lon="8.7186908" timestamp="2011-05-09T19:46:18Z" uid="390170" user="chewiebug" version="3" />
+  <node changeset="564216" id="100209174" lat="47.3789772" lon="8.6196079" timestamp="2009-02-19T20:28:19Z" uid="67814" user="Liquidus" version="23" />
+  <node changeset="17297426" id="105596658" lat="47.4511203" lon="8.5749569" timestamp="2013-08-10T23:12:26Z" uid="479871" user="pfrauenf" version="4" />
+  <node changeset="12814624" id="114935656" lat="47.4692289" lon="8.6180506" timestamp="2012-08-21T22:30:34Z" uid="178186" user="mdk" version="2" />
+  <node changeset="7382875" id="136060328" lat="47.4647655" lon="8.5037141" timestamp="2011-02-24T16:23:27Z" uid="122213" user="kds_ch" version="3" />
+  <node changeset="9509004" id="150998506" lat="47.3181360" lon="8.5877297" timestamp="2011-10-09T09:37:22Z" uid="177149" user="zwis" version="4" />
+  <node changeset="546956" id="206153178" lat="47.2868107" lon="8.6658332" timestamp="2008-01-04T18:02:37Z" uid="14159" user="teich" version="1">
+    <tag k="created_by" v="JOSM" />
+  </node>
+  <node changeset="28751495" id="215407663" lat="47.3548092" lon="8.5916786" timestamp="2015-02-10T14:28:40Z" uid="2110714" user="captain_slow" version="10" />
+  <node changeset="32847777" id="242407802" lat="47.2628780" lon="8.4794923" timestamp="2015-07-24T12:06:38Z" uid="74900" user="FischersFritz" version="2" />
+  <node changeset="680691" id="250108810" lat="47.4250074" lon="8.5857841" timestamp="2009-02-26T20:23:22Z" uid="102572" user="goergel" version="2" />
+  <node changeset="8711784" id="256508608" lat="47.4392784" lon="8.6978570" timestamp="2011-07-13T11:45:32Z" uid="194843" user="feuerstein" version="3" /><node changeset="333305" id="262152968" lat="47.4031062" lon="8.5228930" timestamp="2008-05-04T16:17:16Z" uid="14686" user="mgeiser" version="1">
+    <tag k="amenity" v="bench" />
+    <tag k="created_by" v="JOSM" />
+  </node>
+  <node changeset="7449840" id="266312548" lat="47.4008857" lon="8.5811881" timestamp="2011-03-03T21:25:08Z" uid="387241" user="jamez34" version="2" />
+  <node changeset="40795878" id="270360387" lat="47.4328399" lon="8.6564285" timestamp="2016-07-17T11:08:53Z" uid="214764" user="Lirum Larum" version="4" />
+  <node changeset="489534" id="278535749" lat="47.4081610" lon="8.6381359" timestamp="2008-07-14T19:39:21Z" uid="23284" user="wolfgang-ch" version="1" />
+  <node changeset="11794739" id="282574767" lat="47.2779841" lon="8.7259913" timestamp="2012-06-04T09:40:45Z" uid="395255" user="MWE" version="2" />
+  <node changeset="3816343" id="286494600" lat="47.3499469" lon="8.4660956" timestamp="2010-02-07T17:08:48Z" uid="186651" user="Teddych" version="2" />
+  <node changeset="9134368" id="291399207" lat="47.3339493" lon="8.7607058" timestamp="2011-08-27T01:38:19Z" uid="194843" user="feuerstein" version="2" />
+  <node changeset="9108719" id="296994060" lat="47.3401565" lon="8.7534700" timestamp="2011-08-24T00:44:42Z" uid="194843" user="feuerstein" version="6" />
+  <node changeset="8780751" id="300439922" lat="47.4074571" lon="8.7451868" timestamp="2011-07-20T17:27:18Z" uid="194843" user="feuerstein" version="2" />
+  <node changeset="29384924" id="302824501" lat="47.3500601" lon="8.2755516" timestamp="2015-03-10T13:55:56Z" uid="359735" user="The_Raven" version="4">
+    <tag k="noexit" v="yes" />
+  </node>
+  <node changeset="582074" id="307817543" lat="47.4432473" lon="8.7822850" timestamp="2008-10-26T20:06:33Z" uid="13840" user="mcdmx" version="1" />
+  <node changeset="26787285" id="312311889" lat="47.4679159" lon="8.3219649" timestamp="2014-11-14T21:40:06Z" uid="2675" user="Eckhart Wörner" version="6" />
+  <node changeset="8910045" id="316470040" lat="47.3671931" lon="8.6924924" timestamp="2011-08-03T13:19:51Z" uid="194843" user="feuerstein" version="5" />
+  <node changeset="11191759" id="319193314" lat="47.4592964" lon="8.5472312" timestamp="2012-04-05T16:57:12Z" uid="48010" user="partim" version="5" />
+  <node changeset="8873676" id="321728242" lat="47.2780043" lon="8.4237566" timestamp="2011-07-30T16:55:08Z" uid="498115" user="dischi" version="2" />
+  <node changeset="707039" id="327515138" lat="47.4352367" lon="8.7177973" timestamp="2009-03-01T00:16:04Z" uid="13840" user="mcdmx" version="4" />
+  <node changeset="17358837" id="333167403" lat="47.2754701" lon="8.6463933" timestamp="2013-08-15T12:53:57Z" uid="286075" user="thomasF" version="3" />
+  <node changeset="15673500" id="343274492" lat="47.3728683" lon="8.5286655" timestamp="2013-04-10T05:32:51Z" uid="1234273" user="d_berger" version="2" />
+  <node changeset="36220502" id="349128985" lat="47.4054913" lon="8.4891730" timestamp="2015-12-28T14:24:06Z" uid="92387" user="SimonPoole" version="3" />
+  <node changeset="678604" id="353057378" lat="47.4137710" lon="8.6269562" timestamp="2009-02-26T20:31:34Z" uid="72235" user="Basstoelpel" version="1" />
+  <node changeset="708130" id="354443203" lat="47.4267492" lon="8.4726530" timestamp="2009-03-01T11:00:49Z" uid="8296" user="kuede" version="1" />
+  <node changeset="2332194" id="355706772" lat="47.3197956" lon="8.4779807" timestamp="2009-08-31T23:19:06Z" uid="91822" user="joshx" version="14" />
+  <node changeset="15002841" id="360482587" lat="47.3138091" lon="8.7177880" timestamp="2013-02-12T07:28:36Z" uid="395255" user="MWE" version="4" />
+  <node changeset="25549630" id="362794044" lat="47.4274623" lon="8.5493923" timestamp="2014-09-19T21:04:26Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="36269238" id="366784200" lat="47.4620413" lon="8.4806177" timestamp="2015-12-30T19:12:30Z" uid="1894634" user="Wikilux" version="2" />
+  <node changeset="280367" id="370137635" lat="47.4117214" lon="8.4096530" timestamp="2009-04-06T11:36:23Z" uid="103949" user="gurki" version="4" />
+  <node changeset="355199" id="371239753" lat="47.4134200" lon="8.4563200" timestamp="2009-04-09T22:55:40Z" uid="56460" user="mwirth" version="1" />
+  <node changeset="37864096" id="372716263" lat="47.4178608" lon="8.5010855" timestamp="2016-03-16T07:45:17Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="471128" id="373926574" lat="47.4355288" lon="8.2494476" timestamp="2009-04-13T13:24:29Z" uid="37799" user="Adrian Vogt" version="1" />
+  <node changeset="951728" id="384772077" lat="47.3559313" lon="8.4974068" timestamp="2009-04-25T15:37:50Z" uid="36731" user="Nagi" version="1" />
+  <node changeset="30162378" id="387220400" lat="47.3686243" lon="8.5633974" timestamp="2015-04-12T12:35:31Z" uid="1218134" user="Sarob" version="3" />
+  <node changeset="1056565" id="389407425" lat="47.4682467" lon="8.5263854" timestamp="2009-05-03T08:00:02Z" uid="120116" user="Sensordust" version="1" />
+  <node changeset="4316974" id="391779719" lat="47.3636985" lon="8.4832241" timestamp="2010-04-03T20:20:13Z" uid="67394" user="captaininler" version="3" />
+  <node changeset="20991850" id="399521280" lat="47.4727756" lon="8.3083328" timestamp="2014-03-08T18:25:53Z" uid="359735" user="The_Raven" version="3" />
+  <node changeset="6772608" id="404497878" lat="47.2880194" lon="8.5472631" timestamp="2010-12-26T21:42:56Z" uid="121434" user="dave_zh" version="2" />
+  <node changeset="1371597" id="413572561" lat="47.2808279" lon="8.6896192" timestamp="2009-05-31T18:41:33Z" uid="14159" user="teich" version="1" />
+  <node changeset="1491908" id="418952967" lat="47.3591813" lon="8.3618831" timestamp="2009-06-11T22:12:36Z" uid="124134" user="beni" version="1" />
+  <node changeset="7522164" id="427967541" lat="47.4519297" lon="8.8030222" timestamp="2011-03-11T10:55:47Z" uid="239397" user="jaspis" version="4" />
+  <node changeset="1722930" id="433182418" lat="47.4133404" lon="8.4850321" timestamp="2009-07-03T18:11:36Z" uid="56287" user="RalpH_himself" version="1" />
+  <node changeset="1797663" id="440151688" lat="47.4718076" lon="8.5015827" timestamp="2009-07-11T15:04:31Z" uid="68934" user="_kendell" version="1" />
+  <node changeset="8698783" id="446310078" lat="47.4167462" lon="8.7274540" timestamp="2011-07-11T23:46:53Z" uid="194843" user="feuerstein" version="2" />
+  <node changeset="8624944" id="451695690" lat="47.4118915" lon="8.7114854" timestamp="2011-07-03T23:19:54Z" uid="194843" user="feuerstein" version="3" />
+  <node changeset="35274306" id="457324241" lat="47.4105136" lon="8.7877375" timestamp="2015-11-12T23:45:39Z" uid="178186" user="mdk" version="4" />
+  <node changeset="12939541" id="461814296" lat="47.4273849" lon="8.4574325" timestamp="2012-09-01T08:36:04Z" uid="313918" user="error_401" version="3" />
+  <node changeset="9392354" id="469713588" lat="47.3114182" lon="8.6082259" timestamp="2011-09-25T13:03:00Z" uid="177149" user="zwis" version="2" />
+  <node changeset="12871114" id="472598374" lat="47.4511552" lon="8.6610284" timestamp="2012-08-26T19:38:08Z" uid="178186" user="mdk" version="2" />
+  <node changeset="2297503" id="476270782" lat="47.4672481" lon="8.4843581" timestamp="2009-08-29T07:12:40Z" uid="68934" user="_kendell" version="1" />
+  <node changeset="8275566" id="492903078" lat="47.4480618" lon="8.5693540" timestamp="2011-05-28T20:41:22Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="8779078" id="502304404" lat="47.4093816" lon="8.5885650" timestamp="2011-07-20T14:18:09Z" uid="387241" user="jamez34" version="2" />
+  <node changeset="2686187" id="514308700" lat="47.4103755" lon="8.4780748" timestamp="2009-09-30T10:52:16Z" uid="122213" user="kds_ch" version="1" />
+  <node changeset="6812849" id="521963971" lat="47.2903680" lon="8.5372719" timestamp="2010-12-30T18:56:59Z" uid="121434" user="dave_zh" version="2" />
+  <node changeset="15418732" id="527812146" lat="47.4446292" lon="8.5244920" timestamp="2013-03-19T11:45:07Z" uid="92387" user="SimonPoole" version="2" /><node changeset="2849182" id="530806953" lat="47.4501694" lon="8.5320358" timestamp="2009-10-14T20:02:47Z" uid="8296" user="kuede" version="1" />
+  <node changeset="15677822" id="535882948" lat="47.4460637" lon="8.3313921" timestamp="2013-04-10T13:25:45Z" uid="227502" user="ajk" version="3" />
+  <node changeset="2983674" id="544687208" lat="47.4508498" lon="8.7543233" timestamp="2009-10-29T19:03:27Z" uid="122213" user="kds_ch" version="1" />
+  <node changeset="35467731" id="556100645" lat="47.3297398" lon="8.5120087" timestamp="2015-11-20T18:08:42Z" uid="92387" user="SimonPoole" version="4" />
+  <node changeset="3087042" id="560634564" lat="47.4009406" lon="8.6267549" timestamp="2009-11-11T01:44:21Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="3166899" id="567331570" lat="47.3388194" lon="8.6733284" timestamp="2009-11-20T09:40:36Z" uid="52921" user="t-i" version="1" />
+  <node changeset="35266179" id="571276098" lat="47.3681378" lon="8.5159113" timestamp="2015-11-12T17:11:55Z" uid="452231" user="balducien" version="4" />
+  <node changeset="40639505" id="576081664" lat="47.4388421" lon="8.6308088" timestamp="2016-07-10T22:33:18Z" uid="214764" user="Lirum Larum" version="2" />
+  <node changeset="3296085" id="581973639" lat="47.4569156" lon="8.5884930" timestamp="2009-12-05T15:47:37Z" uid="8296" user="kuede" version="1" />
+  <node changeset="3367502" id="589028093" lat="47.4492537" lon="8.3363103" timestamp="2009-12-13T21:45:46Z" uid="178186" user="mdk" version="1" />
+  <node changeset="3421354" id="597709932" lat="47.4605392" lon="8.6297584" timestamp="2009-12-21T16:12:35Z" uid="8296" user="kuede" version="1" />
+  <node changeset="3451383" id="599383336" lat="47.4511981" lon="8.6489415" timestamp="2009-12-25T22:57:59Z" uid="8296" user="kuede" version="1" />
+  <node changeset="7385598" id="602537869" lat="47.3024234" lon="8.5531583" timestamp="2011-02-24T21:27:44Z" uid="121434" user="dave_zh" version="2" />
+  <node changeset="3592204" id="611330663" lat="47.3860245" lon="8.3665447" timestamp="2010-01-10T22:21:18Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="6661790" id="617901547" lat="47.3746044" lon="8.6435643" timestamp="2010-12-14T19:56:13Z" uid="67814" user="Liquidus" version="2" />
+  <node changeset="28272249" id="627835008" lat="47.3878864" lon="8.3799867" timestamp="2015-01-20T09:58:35Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="8962914" id="638293035" lat="47.3511794" lon="8.7187871" timestamp="2011-08-09T00:48:54Z" uid="194843" user="feuerstein" version="3" />
+  <node changeset="9629765" id="654108580" lat="47.3585171" lon="8.4711694" timestamp="2011-10-23T06:47:02Z" uid="186651" user="Teddych" version="3" />
+  <node changeset="3986764" id="655072821" lat="47.3503795" lon="8.4762132" timestamp="2010-02-27T09:31:13Z" uid="8296" user="kuede" version="1" />
+  <node changeset="27690393" id="656181661" lat="47.3813219" lon="8.4802922" timestamp="2014-12-25T14:51:17Z" uid="92387" user="SimonPoole" version="3" />
+  <node changeset="12777933" id="662208345" lat="47.3264881" lon="8.4904709" timestamp="2012-08-18T22:12:39Z" uid="91822" user="joshx" version="2" />
+  <node changeset="4151697" id="667881767" lat="47.3723062" lon="8.6165512" timestamp="2010-03-17T10:55:37Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="4187463" id="671152782" lat="47.3798527" lon="8.4835863" timestamp="2010-03-21T06:06:02Z" uid="8296" user="kuede" version="1" />
+  <node changeset="38811447" id="672986329" lat="47.3810791" lon="8.5966059" timestamp="2016-04-23T11:38:08Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="4272805" id="678119296" lat="47.3927795" lon="8.5892599" timestamp="2010-03-30T00:20:49Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="4313277" id="683270612" lat="47.3007627" lon="8.5166497" timestamp="2010-04-03T13:59:26Z" uid="91822" user="joshx" version="1" />
+  <node changeset="28868624" id="686907109" lat="47.3808283" lon="8.5070181" timestamp="2015-02-15T17:55:46Z" uid="14390" user="BeKri" version="3" />
+  <node changeset="48217023" id="691893689" lat="47.3816559" lon="8.5106469" timestamp="2017-04-28T06:14:56Z" uid="2110714" user="captain_slow" version="6" />
+  <node changeset="4432834" id="697592198" lat="47.4246385" lon="8.3453788" timestamp="2010-04-15T17:53:37Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="27114437" id="700404947" lat="47.3701493" lon="8.5151885" timestamp="2014-11-29T16:09:25Z" uid="30566" user="Pascal Mages" version="2" />
+  <node changeset="4506182" id="704672077" lat="47.4042633" lon="8.6207813" timestamp="2010-04-23T19:06:07Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="6532390" id="734946176" lat="47.3856273" lon="8.6632258" timestamp="2010-12-03T22:27:02Z" uid="275301" user="Whisperwind" version="2" />
+  <node changeset="4830704" id="752799245" lat="47.3639337" lon="8.6066502" timestamp="2010-05-28T12:59:50Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="9788311" id="763044288" lat="47.3385766" lon="8.5814553" timestamp="2011-11-10T12:28:44Z" uid="177149" user="zwis" version="3" />
+  <node changeset="7098641" id="768441291" lat="47.3618849" lon="8.5318032" timestamp="2011-01-26T22:04:13Z" uid="49111" user="Markus B" version="2" />
+  <node changeset="5024389" id="776361980" lat="47.3271944" lon="8.6088786" timestamp="2010-06-19T14:22:10Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="5100418" id="794787812" lat="47.4096750" lon="8.3565475" timestamp="2010-06-28T19:20:10Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="9787256" id="801768676" lat="47.3458250" lon="8.5861868" timestamp="2011-11-10T10:53:31Z" uid="177149" user="zwis" version="2" />
+  <node changeset="7824340" id="812902734" lat="47.3271798" lon="8.5756358" timestamp="2011-04-10T16:00:31Z" uid="178186" user="mdk" version="2" />
+  <node changeset="5221358" id="817811190" lat="47.3934452" lon="8.3123438" timestamp="2010-07-14T20:11:23Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="9425133" id="821806084" lat="47.3144334" lon="8.5900888" timestamp="2011-09-29T09:17:40Z" uid="177149" user="zwis" version="2" />
+  <node changeset="5312913" id="832855432" lat="47.4093873" lon="8.2983793" timestamp="2010-07-25T15:23:37Z" uid="37799" user="Adrian Vogt" version="1" />
+  <node changeset="9509004" id="860969719" lat="47.3197225" lon="8.5852262" timestamp="2011-10-09T08:32:04Z" uid="177149" user="zwis" version="2" />
+  <node changeset="22405445" id="894108014" lat="47.3714155" lon="8.5429928" timestamp="2014-05-18T12:14:14Z" uid="1218134" user="Sarob" version="4" />
+  <node changeset="34152275" id="915707904" lat="47.4335166" lon="8.7239200" timestamp="2015-09-21T01:11:14Z" uid="178186" user="mdk" version="2" />
+  <node changeset="5938561" id="935522139" lat="47.4410183" lon="8.3822767" timestamp="2010-10-02T18:36:24Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="8738792" id="963535564" lat="47.4222429" lon="8.6975317" timestamp="2011-07-16T11:34:43Z" uid="194843" user="feuerstein" version="2" />
+  <node changeset="6558610" id="984928890" lat="47.4503511" lon="8.7944933" timestamp="2010-12-06T00:25:23Z" uid="178186" user="mdk" version="2" />
+  <node changeset="37026880" id="1016168747" lat="47.3494182" lon="8.3526515" timestamp="2016-02-05T19:31:27Z" uid="465052" user="hecktor" version="3" />
+  <node changeset="15681876" id="1019381190" lat="47.3277531" lon="8.4684150" timestamp="2013-04-10T19:18:55Z" uid="481380" user="Nzara" version="2" />
+  <node changeset="28940247" id="1021015977" lat="47.4055385" lon="8.5405264" timestamp="2015-02-18T19:03:43Z" uid="1218134" user="Sarob" version="2" />
+  <node changeset="7577272" id="1024129072" lat="47.4467226" lon="8.7969875" timestamp="2011-03-16T16:47:31Z" uid="122213" user="kds_ch" version="2" />
+  <node changeset="13688605" id="1025933879" lat="47.3537797" lon="8.4426199" timestamp="2012-10-30T16:56:56Z" uid="186651" user="Teddych" version="2" />
+  <node changeset="6597866" id="1029827650" lat="47.3113260" lon="8.4895007" timestamp="2010-12-09T18:31:26Z" uid="91822" user="joshx" version="1" />
+  <node changeset="6638285" id="1035919579" lat="47.4768691" lon="8.3114057" timestamp="2010-12-12T16:34:48Z" uid="14686" user="mgeiser" version="1" />
+  <node changeset="6671403" id="1039844616" lat="47.2842104" lon="8.5748792" timestamp="2010-12-15T20:45:06Z" uid="121434" user="dave_zh" version="1" />
+  <node changeset="6691689" id="1043935122" lat="47.4067854" lon="8.2983288" timestamp="2010-12-17T22:51:22Z" uid="124134" user="beni" version="1" />
+  <node changeset="9807759" id="1046793316" lat="47.4549159" lon="8.7731808" timestamp="2011-11-12T19:49:56Z" uid="178186" user="mdk" version="2" />
+  <node changeset="27773693" id="1050181697" lat="47.3943030" lon="8.5267473" timestamp="2014-12-29T10:55:30Z" uid="1218134" user="Sarob" version="2">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="17220577" id="1055350426" lat="47.3421449" lon="8.7857148" timestamp="2013-08-04T21:20:28Z" uid="178186" user="mdk" version="3">
+    <tag k="noexit" v="yes" />
+  </node>
+  <node changeset="6760517" id="1063905066" lat="47.3896960" lon="8.6744285" timestamp="2010-12-25T12:33:27Z" uid="275301" user="Whisperwind" version="1" />
+  <node changeset="6781729" id="1068263231" lat="47.2855871" lon="8.5464662" timestamp="2010-12-27T20:16:53Z" uid="121434" user="dave_zh" version="1" /><node changeset="6810882" id="1073101805" lat="47.4046467" lon="8.7626880" timestamp="2010-12-30T15:58:31Z" uid="78090" user="Roman Fischer" version="1" />
+  <node changeset="6830083" id="1077180231" lat="47.4299737" lon="8.7677460" timestamp="2011-01-01T17:41:58Z" uid="78090" user="Roman Fischer" version="1" />
+  <node changeset="42116238" id="1078907233" lat="47.3532905" lon="8.5366663" timestamp="2016-09-13T05:51:39Z" uid="449569" user="Nautic" version="3" />
+  <node changeset="33945431" id="1079910659" lat="47.3652362" lon="8.7760763" timestamp="2015-09-10T23:01:59Z" uid="178186" user="mdk" version="2" />
+  <node changeset="6864176" id="1082629251" lat="47.2806189" lon="8.5310423" timestamp="2011-01-04T18:50:44Z" uid="121434" user="dave_zh" version="1" />
+  <node changeset="6896511" id="1089110932" lat="47.2787658" lon="8.5708492" timestamp="2011-01-07T19:40:22Z" uid="121434" user="dave_zh" version="1" />
+  <node changeset="6908929" id="1092357820" lat="47.2815874" lon="8.5758565" timestamp="2011-01-08T21:05:21Z" uid="121434" user="dave_zh" version="1" />
+  <node changeset="44332163" id="1098348118" lat="47.3379941" lon="8.2952854" timestamp="2016-12-11T21:02:36Z" uid="92387" user="SimonPoole" version="3" />
+  <node changeset="14015126" id="1102204446" lat="47.3583767" lon="8.2766186" timestamp="2012-11-24T16:36:23Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="6971901" id="1103883254" lat="47.3498291" lon="8.2760561" timestamp="2011-01-14T21:56:12Z" uid="392796" user="Burg-Kartograph" version="1">
+    <tag k="shop" v="pet" />
+  </node>
+  <node changeset="6994263" id="1106837115" lat="47.3025176" lon="8.5551776" timestamp="2011-01-16T21:39:11Z" uid="121434" user="dave_zh" version="1" />
+  <node changeset="7015522" id="1109699003" lat="47.3055229" lon="8.5427253" timestamp="2011-01-18T22:03:04Z" uid="121434" user="dave_zh" version="1" />
+  <node changeset="7041367" id="1113133926" lat="47.3070082" lon="8.4768778" timestamp="2011-01-21T15:35:29Z" uid="91822" user="joshx" version="1" />
+  <node changeset="7064837" id="1117237005" lat="47.3358148" lon="8.4415564" timestamp="2011-01-23T17:57:55Z" uid="91822" user="joshx" version="1" />
+  <node changeset="7097544" id="1122353882" lat="47.3735935" lon="8.7788593" timestamp="2011-01-26T20:25:11Z" uid="78090" user="Roman Fischer" version="1" />
+  <node changeset="23046820" id="1127785505" lat="47.4532875" lon="8.3239785" timestamp="2014-06-20T15:31:30Z" uid="359735" user="The_Raven" version="2" />
+  <node changeset="7203182" id="1139023048" lat="47.3212218" lon="8.7524834" timestamp="2011-02-06T12:57:04Z" uid="395255" user="MWE" version="1" />
+  <node changeset="7231679" id="1142994692" lat="47.2771408" lon="8.7353207" timestamp="2011-02-08T22:30:17Z" uid="44456" user="twalter" version="1" />
+  <node changeset="7247622" id="1145603670" lat="47.3037767" lon="8.7498236" timestamp="2011-02-10T17:55:17Z" uid="395255" user="MWE" version="1" />
+  <node changeset="34009863" id="1146933665" lat="47.4233665" lon="8.7908737" timestamp="2015-09-13T22:19:29Z" uid="178186" user="mdk" version="2" />
+  <node changeset="7258954" id="1147954361" lat="47.3178539" lon="8.5429458" timestamp="2011-02-11T20:39:40Z" uid="121434" user="dave_zh" version="1" />
+  <node changeset="29549173" id="1150605727" lat="47.3860442" lon="8.5560794" timestamp="2015-03-17T19:47:30Z" uid="1218134" user="Sarob" version="3" />
+  <node changeset="7289772" id="1153335537" lat="47.3250502" lon="8.5466209" timestamp="2011-02-14T21:09:55Z" uid="121434" user="dave_zh" version="1" />
+  <node changeset="7306801" id="1156624159" lat="47.4513949" lon="8.3194247" timestamp="2011-02-16T19:26:50Z" uid="382466" user="shngg" version="1" />
+  <node changeset="35059287" id="1157988713" lat="47.3225097" lon="8.5487392" timestamp="2015-11-03T16:03:22Z" uid="452231" user="balducien" version="2" />
+  <node changeset="26804187" id="1168500298" lat="47.4055778" lon="8.7784085" timestamp="2014-11-15T17:52:38Z" uid="632715" user="Haiperlink" version="2" />
+  <node changeset="7405834" id="1175983547" lat="47.4393009" lon="8.5747500" timestamp="2011-02-26T23:49:58Z" uid="210639" user="OSMfan" version="1" />
+  <node changeset="42936777" id="1187589467" lat="47.4116541" lon="8.5444735" timestamp="2016-10-16T13:59:31Z" uid="92387" user="SimonPoole" version="4" />
+  <node changeset="9636068" id="1196692201" lat="47.4454147" lon="8.7986834" timestamp="2011-10-23T17:35:41Z" uid="178186" user="mdk" version="3" />
+  <node changeset="7570267" id="1203621565" lat="47.4257579" lon="8.5581920" timestamp="2011-03-15T20:54:51Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="12766534" id="1209076776" lat="47.3990070" lon="8.4480460" timestamp="2012-08-17T20:02:46Z" uid="178186" user="mdk" version="3">
+    <tag k="crossing" v="uncontrolled" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="29782147" id="1212102949" lat="47.4187113" lon="8.3905386" timestamp="2015-03-27T16:52:14Z" uid="97547" user="datendelphin" version="3" />
+  <node changeset="7673793" id="1218761958" lat="47.4447709" lon="8.7970599" timestamp="2011-03-26T10:16:26Z" uid="178186" user="mdk" version="1" />
+  <node changeset="29735179" id="1225636538" lat="47.3794326" lon="8.5655884" timestamp="2015-03-25T19:00:04Z" uid="1218134" user="Sarob" version="2" />
+  <node changeset="7748598" id="1229855032" lat="47.3857767" lon="8.5142597" timestamp="2011-04-02T21:25:34Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="42534747" id="1236383419" lat="47.3776460" lon="8.5388520" timestamp="2016-09-30T06:50:01Z" uid="481380" user="Nzara" version="4">
+    <tag k="ele" v="408" />
+    <tag k="level" v="0" />
+    <tag k="name" v="Zürich Hauptbahnhof" />
+    <tag k="name:fr" v="Zurich gare centrale" />
+    <tag k="network" v="ZVV" />
+    <tag k="operator" v="SBB" />
+    <tag k="public_transport" v="stop_position" />
+    <tag k="railway" v="stop" />
+    <tag k="source" v="Bundesamt für Verkehr (BAV), DIDOK 2009" />
+    <tag k="train" v="yes" />
+    <tag k="uic_name" v="Zürich HB" />
+    <tag k="uic_ref" v="8503000" />
+  </node>
+  <node changeset="7846737" id="1242481792" lat="47.3995264" lon="8.4474654" timestamp="2011-04-12T20:46:36Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="17350591" id="1246911978" lat="47.3832353" lon="8.7534927" timestamp="2013-08-14T19:38:44Z" uid="481380" user="Nzara" version="2" />
+  <node changeset="7933960" id="1255354989" lat="47.3532979" lon="8.7109470" timestamp="2011-04-22T12:27:59Z" uid="434424" user="Matthias488" version="1" />
+  <node changeset="7980394" id="1261442504" lat="47.2897717" lon="8.4158128" timestamp="2011-04-26T22:22:21Z" uid="91822" user="joshx" version="1">
+    <tag k="amenity" v="bench" />
+  </node>
+  <node changeset="7995800" id="1263604723" lat="47.4595074" lon="8.3276912" timestamp="2011-04-28T15:40:57Z" uid="187849" user="Hami" version="1" />
+  <node changeset="8018013" id="1268388161" lat="47.4626378" lon="8.3242722" timestamp="2011-05-01T06:41:24Z" uid="187849" user="Hami" version="1" />
+  <node changeset="8051048" id="1272273812" lat="47.2962067" lon="8.5644543" timestamp="2011-05-04T18:06:25Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="8080864" id="1276864169" lat="47.4383370" lon="8.3643992" timestamp="2011-05-08T10:00:29Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="8124656" id="1281880989" lat="47.3880693" lon="8.5512094" timestamp="2011-05-12T18:00:26Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="8148820" id="1285883739" lat="47.4664224" lon="8.3137350" timestamp="2011-05-15T08:26:48Z" uid="187849" user="Hami" version="1" />
+  <node changeset="8173647" id="1289209233" lat="47.4568675" lon="8.7363594" timestamp="2011-05-17T16:58:18Z" uid="390170" user="chewiebug" version="1" />
+  <node changeset="8194047" id="1292269093" lat="47.3927813" lon="8.4508418" timestamp="2011-05-19T22:12:02Z" uid="62456" user="Damir Perisa" version="1" />
+  <node changeset="27335197" id="1293768990" lat="47.3903803" lon="8.4241349" timestamp="2014-12-08T14:34:42Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="8208346" id="1295111106" lat="47.4402281" lon="8.4674116" timestamp="2011-05-21T16:26:19Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="15294833" id="1297388955" lat="47.4651106" lon="8.3071234" timestamp="2013-03-08T20:34:40Z" uid="481380" user="Nzara" version="2" />
+  <node changeset="8257876" id="1301283140" lat="47.3446733" lon="8.4509265" timestamp="2011-05-26T22:06:12Z" uid="91822" user="joshx" version="1" />
+  <node changeset="8268447" id="1302906831" lat="47.4651344" lon="8.3323153" timestamp="2011-05-28T05:33:58Z" uid="187849" user="Hami" version="1" />
+  <node changeset="8289951" id="1305642715" lat="47.4728623" lon="8.3672475" timestamp="2011-05-30T10:00:41Z" uid="459185" user="Laegerezwergli" version="1" />
+  <node changeset="8320577" id="1309143788" lat="47.4187410" lon="8.2721337" timestamp="2011-06-02T14:43:18Z" uid="62456" user="Damir Perisa" version="1" />
+  <node changeset="8334247" id="1311109904" lat="47.4178163" lon="8.2806563" timestamp="2011-06-03T21:26:03Z" uid="62456" user="Damir Perisa" version="1" />
+  <node changeset="18076650" id="1316634234" lat="47.4775967" lon="8.7752734" timestamp="2013-09-28T13:11:15Z" uid="178186" user="mdk" version="2" />
+  <node changeset="15688983" id="1319314149" lat="47.2829560" lon="8.4517009" timestamp="2013-04-11T12:02:03Z" uid="481380" user="Nzara" version="2">
+    <tag k="railway" v="level_crossing" />
+  </node>
+  <node changeset="8422930" id="1323315042" lat="47.2809030" lon="8.7750908" timestamp="2011-06-13T08:18:00Z" uid="8590" user="Jiuka" version="1" />
+  <node changeset="8440152" id="1325419826" lat="47.4827685" lon="8.3487489" timestamp="2011-06-14T18:19:35Z" uid="187849" user="Hami" version="1" />
+  <node changeset="8467729" id="1328831664" lat="47.3990385" lon="8.3422821" timestamp="2011-06-17T19:29:41Z" uid="62456" user="Damir Perisa" version="1">
+    <tag k="natural" v="tree" />
+  </node>
+  <node changeset="8477369" id="1330031380" lat="47.3936283" lon="8.4329934" timestamp="2011-06-18T20:06:01Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="27492556" id="1334584105" lat="47.4313576" lon="8.3699217" timestamp="2014-12-15T21:00:39Z" uid="178186" user="mdk" version="2" />
+  <node changeset="8539343" id="1337935894" lat="47.4448940" lon="8.3851033" timestamp="2011-06-25T06:59:38Z" uid="187849" user="Hami" version="1" />
+  <node changeset="8583376" id="1343606541" lat="47.3071644" lon="8.7782952" timestamp="2011-06-29T18:17:55Z" uid="8590" user="Jiuka" version="1" />
+  <node changeset="8609975" id="1347090518" lat="47.4616192" lon="8.4635834" timestamp="2011-07-02T17:07:06Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="8630069" id="1349251916" lat="47.4112574" lon="8.7102472" timestamp="2011-07-04T14:36:56Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="8664855" id="1353672597" lat="47.4204404" lon="8.6882629" timestamp="2011-07-08T10:19:44Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="8680163" id="1356044042" lat="47.4729530" lon="8.3992411" timestamp="2011-07-10T06:22:24Z" uid="187849" user="Hami" version="1" />
+  <node changeset="14666335" id="1359138232" lat="47.4357800" lon="8.6921493" timestamp="2013-01-15T21:25:44Z" uid="12054" user="Martin Sauter" version="2" />
+  <node changeset="8717802" id="1361072132" lat="47.4265534" lon="8.7245306" timestamp="2011-07-14T00:04:18Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="8744542" id="1364073893" lat="47.4629734" lon="8.3321716" timestamp="2011-07-17T06:07:41Z" uid="187849" user="Hami" version="1" />
+  <node changeset="8771621" id="1366943542" lat="47.4066593" lon="8.6217478" timestamp="2011-07-19T19:05:12Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="8786111" id="1368747316" lat="47.4172054" lon="8.7619218" timestamp="2011-07-21T08:32:19Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="8867113" id="1369897495" lat="47.4032650" lon="8.6836262" timestamp="2011-07-29T20:49:52Z" uid="194843" user="feuerstein" version="2" />
+  <node changeset="8941830" id="1371072652" lat="47.3806497" lon="8.7170430" timestamp="2011-08-06T20:49:26Z" uid="194843" user="feuerstein" version="2" />
+  <node changeset="8815602" id="1372148052" lat="47.2809145" lon="8.8031957" timestamp="2011-07-24T12:44:46Z" uid="340608" user="SwisstopoImports" version="1" />
+  <node changeset="8815602" id="1372158556" lat="47.3694726" lon="8.7584406" timestamp="2011-07-24T12:51:35Z" uid="340608" user="SwisstopoImports" version="1" />
+  <node changeset="8815602" id="1372169139" lat="47.4627478" lon="8.6692746" timestamp="2011-07-24T12:58:08Z" uid="340608" user="SwisstopoImports" version="1" />
+  <node changeset="8820076" id="1372860635" lat="47.3777252" lon="8.3564613" timestamp="2011-07-24T19:17:32Z" uid="340608" user="SwisstopoImports" version="1" />
+  <node changeset="8845183" id="1375785508" lat="47.3977649" lon="8.7012318" timestamp="2011-07-27T13:41:46Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="30045434" id="1377858657" lat="47.3714396" lon="8.5575830" timestamp="2015-04-07T17:34:46Z" uid="1218134" user="Sarob" version="4" />
+  <node changeset="8877451" id="1379582905" lat="47.4289261" lon="8.3505406" timestamp="2011-07-31T04:54:28Z" uid="187849" user="Hami" version="1" />
+  <node changeset="39416970" id="1383216019" lat="47.4308839" lon="8.3553147" timestamp="2016-05-19T07:26:13Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="8935591" id="1388216445" lat="47.3728597" lon="8.7011231" timestamp="2011-08-06T08:11:41Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="8984651" id="1390164835" lat="47.3625486" lon="8.7221806" timestamp="2011-08-11T11:32:55Z" uid="194843" user="feuerstein" version="2" />
+  <node changeset="8969339" id="1392744538" lat="47.3769805" lon="8.5661911" timestamp="2011-08-09T17:28:23Z" uid="12054" user="Martin Sauter" version="1" />
+  <node changeset="33073472" id="1395190611" lat="47.3505568" lon="8.5806267" timestamp="2015-08-03T15:35:50Z" uid="1218134" user="Sarob" version="2" />
+  <node changeset="22547488" id="1399562253" lat="47.3288403" lon="8.7959552" timestamp="2014-05-25T17:41:19Z" uid="161619" user="FvGordon" version="4" />
+  <node changeset="9043732" id="1401728026" lat="47.3926018" lon="8.7231959" timestamp="2011-08-17T00:10:35Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="9083331" id="1406972967" lat="47.3948847" lon="8.6451126" timestamp="2011-08-21T11:59:30Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="9114083" id="1411396304" lat="47.3567486" lon="8.4700748" timestamp="2011-08-24T16:52:21Z" uid="91822" user="joshx" version="1" />
+  <node changeset="9125963" id="1412672277" lat="47.3460063" lon="8.7397335" timestamp="2011-08-26T00:02:17Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="9167415" id="1418041398" lat="47.3230176" lon="8.7913747" timestamp="2011-08-30T13:28:51Z" uid="194843" user="feuerstein" version="1" />
+  <node changeset="43844269" id="1422755062" lat="47.4247534" lon="8.3105362" timestamp="2016-11-21T11:21:14Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="9299858" id="1432689963" lat="47.3419983" lon="8.6059166" timestamp="2011-09-14T14:26:20Z" uid="177149" user="zwis" version="1" />
+  <node changeset="36973331" id="1446429505" lat="47.4142570" lon="8.4681842" timestamp="2016-02-03T09:30:47Z" uid="220206" user="olläufer" version="2" />
+  <node changeset="48516885" id="1458902943" lat="47.4093446" lon="8.4254638" timestamp="2017-05-08T22:58:47Z" uid="7412" user="mjulius" version="3" />
+  <node changeset="9518015" id="1460566956" lat="47.4055866" lon="8.6023568" timestamp="2011-10-09T22:40:22Z" uid="7412" user="mjulius" version="1" />
+  <node changeset="9568729" id="1468851664" lat="47.4845610" lon="8.6222859" timestamp="2011-10-16T01:30:28Z" uid="178186" user="mdk" version="1" />
+  <node changeset="9595804" id="1472541363" lat="47.4574281" lon="8.7456445" timestamp="2011-10-18T22:38:23Z" uid="178186" user="mdk" version="1" />
+  <node changeset="9636068" id="1478056800" lat="47.4456707" lon="8.7988505" timestamp="2011-10-23T17:32:13Z" uid="178186" user="mdk" version="1" />
+  <node changeset="9665108" id="1481906524" lat="47.4588222" lon="8.6821090" timestamp="2011-10-27T00:31:44Z" uid="178186" user="mdk" version="1" />
+  <node changeset="9701217" id="1486944894" lat="47.3363459" lon="8.7030133" timestamp="2011-10-31T08:51:06Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="28703426" id="1493217101" lat="47.4693147" lon="8.6532863" timestamp="2015-02-08T14:23:43Z" uid="178186" user="mdk" version="2" />
+  <node changeset="9769012" id="1494590561" lat="47.3969803" lon="8.5279610" timestamp="2011-11-07T21:19:17Z" uid="81893" user="schmandr" version="1" />
+  <node changeset="9803121" id="1499751811" lat="47.4173141" lon="8.3075807" timestamp="2011-11-12T10:27:09Z" uid="187849" user="Hami" version="1" />
+  <node changeset="33506918" id="1507185165" lat="47.3677769" lon="8.7700227" timestamp="2015-08-22T15:06:50Z" uid="178186" user="mdk" version="2" />
+  <node changeset="9942725" id="1516306348" lat="47.4729570" lon="8.7081275" timestamp="2011-11-25T10:30:04Z" uid="178186" user="mdk" version="1" />
+  <node changeset="9982447" id="1521857358" lat="47.3066402" lon="8.5933984" timestamp="2011-11-28T21:19:30Z" uid="126246" user="mocoohay" version="1" />
+  <node changeset="10045340" id="1533158033" lat="47.3072941" lon="8.6025076" timestamp="2011-12-05T20:36:38Z" uid="126246" user="mocoohay" version="1" />
+  <node changeset="10111153" id="1544893652" lat="47.2961835" lon="8.6046266" timestamp="2011-12-13T21:16:32Z" uid="126246" user="mocoohay" version="1" />
+  <node changeset="34627708" id="1550807793" lat="47.3847732" lon="8.5316866" timestamp="2015-10-14T08:02:53Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="10197791" id="1561231828" lat="47.4373490" lon="8.2926075" timestamp="2011-12-25T07:50:29Z" uid="187849" user="Hami" version="1" />
+  <node changeset="10268039" id="1573708067" lat="47.4416277" lon="8.2888874" timestamp="2012-01-02T06:55:00Z" uid="187849" user="Hami" version="1" />
+  <node changeset="10294134" id="1577106344" lat="47.2947821" lon="8.6319038" timestamp="2012-01-04T19:04:11Z" uid="126246" user="mocoohay" version="1" />
+  <node changeset="10326101" id="1581621493" lat="47.3207454" lon="8.4413408" timestamp="2012-01-07T21:42:11Z" uid="91822" user="joshx" version="1" />
+  <node changeset="10365354" id="1586340423" lat="47.2744047" lon="8.4443386" timestamp="2012-01-11T22:33:23Z" uid="579860" user="LBen" version="1" />
+  <node changeset="26225741" id="1596724801" lat="47.4196931" lon="8.6351630" timestamp="2014-10-21T01:09:52Z" uid="7412" user="mjulius" version="2" />
+  <node changeset="10521987" id="1608894717" lat="47.4381964" lon="8.2708157" timestamp="2012-01-28T15:33:44Z" uid="187849" user="Hami" version="1" />
+  <node changeset="10561492" id="1614557369" lat="47.4348781" lon="8.5631704" timestamp="2012-02-01T19:06:20Z" uid="178186" user="mdk" version="1" />
+  <node changeset="10615121" id="1622043475" lat="47.3805016" lon="8.4270242" timestamp="2012-02-07T18:56:23Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="36171957" id="1623705880" lat="47.3636158" lon="8.5936766" timestamp="2015-12-26T07:55:15Z" uid="1218134" user="Sarob" version="3" />
+  <node changeset="10712015" id="1636662766" lat="47.3475992" lon="8.7094587" timestamp="2012-02-17T15:12:50Z" uid="13840" user="mcdmx" version="1" />
+  <node changeset="10799597" id="1648750086" lat="47.2830791" lon="8.6140931" timestamp="2012-02-26T15:41:20Z" uid="126246" user="mocoohay" version="1" />
+  <node changeset="10830275" id="1653045860" lat="47.4187859" lon="8.5542236" timestamp="2012-02-29T17:43:22Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="35164595" id="1660957523" lat="47.3649880" lon="8.5973531" timestamp="2015-11-08T08:31:21Z" uid="1218134" user="Sarob" version="2" />
+  <node changeset="45812305" id="1667830435" lat="47.3928683" lon="8.2803188" timestamp="2017-02-04T18:35:57Z" uid="465052" user="hecktor" version="2" />
+  <node changeset="10981017" id="1674846223" lat="47.4240076" lon="8.5760976" timestamp="2012-03-14T18:58:23Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="10999551" id="1676937273" lat="47.3216167" lon="8.5006710" timestamp="2012-03-16T15:47:18Z" uid="91822" user="joshx" version="1" />
+  <node changeset="11012300" id="1678743966" lat="47.2909295" lon="8.6136152" timestamp="2012-03-17T20:36:02Z" uid="126246" user="mocoohay" version="1" />
+  <node changeset="11032971" id="1681963583" lat="47.3087691" lon="8.5284529" timestamp="2012-03-19T18:29:03Z" uid="91822" user="joshx" version="1" />
+  <node changeset="11046991" id="1684061354" lat="47.4244434" lon="8.5787908" timestamp="2012-03-20T23:20:11Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="11086328" id="1688845664" lat="47.4249850" lon="8.5798552" timestamp="2012-03-24T16:45:36Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="11176494" id="1700976315" lat="47.4368560" lon="8.5723572" timestamp="2012-04-04T13:18:43Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="20855011" id="1708129557" lat="47.4449325" lon="8.5924023" timestamp="2014-03-01T22:05:03Z" uid="163622" user="pneff" version="2" />
+  <node changeset="11289298" id="1714699606" lat="47.4075358" lon="8.4469424" timestamp="2012-04-13T16:16:17Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="11378526" id="1725885926" lat="47.3398296" lon="8.6246830" timestamp="2012-04-21T21:52:04Z" uid="178186" user="mdk" version="1" />
+  <node changeset="11430019" id="1732676445" lat="47.2955157" lon="8.7870471" timestamp="2012-04-27T06:51:20Z" uid="395255" user="MWE" version="1" />
+  <node changeset="11585415" id="1751000612" lat="47.3873454" lon="8.4650146" timestamp="2012-05-13T12:39:10Z" uid="62623" user="thirteen" version="1" />
+  <node changeset="11720828" id="1768132829" lat="47.3009069" lon="8.3698408" timestamp="2012-05-27T22:08:51Z" uid="8296" user="kuede" version="1" />
+  <node changeset="33872403" id="1775654286" lat="47.3103793" lon="8.7646488" timestamp="2015-09-08T04:40:46Z" uid="178186" user="mdk" version="2" />
+  <node changeset="25843973" id="1780448500" lat="47.3635000" lon="8.6756244" timestamp="2014-10-04T01:15:50Z" uid="178186" user="mdk" version="2" />
+  <node changeset="21907389" id="1791263463" lat="47.3657353" lon="8.5527868" timestamp="2014-04-24T13:09:35Z" uid="1218134" user="Sarob" version="2" />
+  <node changeset="12053898" id="1805819452" lat="47.4336222" lon="8.4623655" timestamp="2012-06-29T08:11:06Z" uid="313918" user="error_401" version="1" />
+  <node changeset="12075713" id="1808741792" lat="47.2892996" lon="8.4368926" timestamp="2012-07-01T13:02:27Z" uid="711403" user="recmar" version="1" />
+  <node changeset="12087296" id="1809932139" lat="47.3542718" lon="8.5790621" timestamp="2012-07-02T13:28:09Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="12089036" id="1810115910" lat="47.4296433" lon="8.5556393" timestamp="2012-07-02T16:17:15Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="36546165" id="1811821191" lat="47.4025124" lon="8.5042380" timestamp="2016-01-13T10:10:08Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="12224557" id="1826000026" lat="47.3650958" lon="8.6231688" timestamp="2012-07-15T08:04:36Z" uid="12054" user="Martin Sauter" version="1" />
+  <node changeset="12308372" id="1830388431" lat="47.3667672" lon="8.6266602" timestamp="2012-07-19T04:39:17Z" uid="12054" user="Martin Sauter" version="1" />
+  <node changeset="12408516" id="1833071727" lat="47.3870916" lon="8.6199180" timestamp="2012-07-21T12:25:42Z" uid="479256" user="geodreieck4711" version="1" />
+  <node changeset="12438740" id="1834570639" lat="47.3936267" lon="8.6451864" timestamp="2012-07-22T19:34:34Z" uid="479256" user="geodreieck4711" version="1" />
+  <node changeset="12444298" id="1834935490" lat="47.3964787" lon="8.6297399" timestamp="2012-07-23T05:15:11Z" uid="479256" user="geodreieck4711" version="1" />
+  <node changeset="12576154" id="1847032026" lat="47.2775878" lon="8.2756431" timestamp="2012-08-01T16:17:49Z" uid="505667" user="Bullroarer" version="1" />
+  <node changeset="12711061" id="1864032496" lat="47.4248430" lon="8.7483415" timestamp="2012-08-13T09:10:52Z" uid="122213" user="kds_ch" version="1">
+    <tag k="natural" v="tree" />
+  </node>
+  <node changeset="12809774" id="1876210583" lat="47.3388015" lon="8.7892980" timestamp="2012-08-21T15:20:59Z" uid="334389" user="ueliw0" version="1" />
+  <node changeset="39410585" id="1891566405" lat="47.4556461" lon="8.3834453" timestamp="2016-05-18T20:44:36Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="13040980" id="1906506900" lat="47.3516931" lon="8.6444210" timestamp="2012-09-09T07:12:59Z" uid="12054" user="Martin Sauter" version="1" />
+  <node changeset="13155178" id="1920032853" lat="47.4034562" lon="8.4011959" timestamp="2012-09-18T11:46:11Z" uid="329268" user="chrissa" version="1">
+    <tag k="access" v="destination" />
+    <tag k="motor_vehicle" v="destination" />
+  </node>
+  <node changeset="13193022" id="1924975131" lat="47.3961362" lon="8.3978131" timestamp="2012-09-21T09:12:00Z" uid="329268" user="chrissa" version="1" />
+  <node changeset="13254857" id="1933262493" lat="47.3538621" lon="8.6438139" timestamp="2012-09-26T05:00:57Z" uid="12054" user="Martin Sauter" version="1" />
+  <node changeset="13295848" id="1937919354" lat="47.4144663" lon="8.6205687" timestamp="2012-09-29T12:38:23Z" uid="908746" user="dulix9" version="1" />
+  <node changeset="13393659" id="1946182342" lat="47.2759437" lon="8.4464535" timestamp="2012-10-07T06:23:41Z" uid="711403" user="recmar" version="2" />
+  <node changeset="13423425" id="1954531339" lat="47.4122003" lon="8.6012967" timestamp="2012-10-09T09:13:36Z" uid="908746" user="dulix9" version="1" />
+  <node changeset="13495293" id="1965034975" lat="47.4140039" lon="8.5975423" timestamp="2012-10-14T16:57:45Z" uid="908746" user="dulix9" version="1" />
+  <node changeset="13584945" id="1977024790" lat="47.3860826" lon="8.5771463" timestamp="2012-10-21T19:43:42Z" uid="479871" user="pfrauenf" version="1" />
+  <node changeset="24981234" id="1987021837" lat="47.3873874" lon="8.3688311" timestamp="2014-08-24T15:14:53Z" uid="92387" user="SimonPoole" version="3" />
+  <node changeset="13704431" id="1991410662" lat="47.3420726" lon="8.7299995" timestamp="2012-10-31T20:51:54Z" uid="69380" user="Mathias Wittwer" version="1">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node changeset="16030935" id="1997951469" lat="47.3427681" lon="8.7379436" timestamp="2013-05-08T14:40:03Z" uid="324188" user="ponte1112" version="2" />
+  <node changeset="13814660" id="2005327587" lat="47.3481639" lon="8.5273468" timestamp="2012-11-09T21:36:29Z" uid="565471" user="bebbi" version="1">
+    <tag k="leisure" v="playground" />
+  </node>
+  <node changeset="13833946" id="2009049392" lat="47.4227860" lon="8.4058100" timestamp="2012-11-11T18:14:10Z" uid="908746" user="dulix9" version="1" />
+  <node changeset="13907832" id="2018406673" lat="47.4287475" lon="8.3939488" timestamp="2012-11-17T17:07:03Z" uid="908746" user="dulix9" version="1" />
+  <node changeset="37539636" id="2023910793" lat="47.3930581" lon="8.4935352" timestamp="2016-03-01T10:30:20Z" uid="92387" user="SimonPoole" version="3" />
+  <node changeset="14014238" id="2030250473" lat="47.4297620" lon="8.5555522" timestamp="2012-11-24T16:13:01Z" uid="102572" user="goergel" version="1" />
+  <node changeset="24087461" id="2035142053" lat="47.4598207" lon="8.4315958" timestamp="2014-07-11T18:24:14Z" uid="1416503" user="asdf2" version="2" />
+  <node changeset="14078179" id="2038868641" lat="47.4397707" lon="8.4434509" timestamp="2012-11-28T20:04:22Z" uid="908746" user="dulix9" version="1" />
+  <node changeset="14114078" id="2044291729" lat="47.4417966" lon="8.6712307" timestamp="2012-12-01T16:59:05Z" uid="565471" user="bebbi" version="1" />
+  <node changeset="26226535" id="2053016625" lat="47.3745915" lon="8.6769017" timestamp="2014-10-21T02:54:33Z" uid="7412" user="mjulius" version="2">
+    <tag k="power" v="tower" />
+  </node>
+  <node changeset="14272947" id="2066654052" lat="47.3916593" lon="8.3316476" timestamp="2012-12-14T16:04:27Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="14416929" id="2083748344" lat="47.2833559" lon="8.6483350" timestamp="2012-12-26T20:13:58Z" uid="286075" user="thomasF" version="1" />
+  <node changeset="31182037" id="2106183978" lat="47.3612032" lon="8.5134321" timestamp="2015-05-15T17:00:05Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="38128211" id="2132393298" lat="47.2960395" lon="8.6943588" timestamp="2016-03-28T19:32:23Z" uid="291461" user="Why-T" version="3">
+    <tag k="ele" v="527" />
+    <tag k="name" v="Langwies" />
+    <tag k="operator" v="FB" />
+    <tag k="railway" v="station" />
+    <tag k="uic_name" v="Langwies ZH" />
+    <tag k="uic_ref" v="8503061" />
+  </node>
+  <node changeset="32658353" id="2145392311" lat="47.4430022" lon="8.2549228" timestamp="2015-07-15T18:03:02Z" uid="359735" user="The_Raven" version="2" />
+  <node changeset="17410877" id="2169475923" lat="47.2745453" lon="8.3284085" timestamp="2013-08-19T13:19:57Z" uid="427807" user="samden" version="2" />
+  <node changeset="15240508" id="2184639067" lat="47.4616857" lon="8.6622283" timestamp="2013-03-03T22:20:19Z" uid="178186" user="mdk" version="1" />
+  <node changeset="15367898" id="2202485329" lat="47.3876162" lon="8.3852580" timestamp="2013-03-14T22:32:58Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="15400727" id="2207211286" lat="47.3970365" lon="8.3784878" timestamp="2013-03-17T20:14:41Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="15434479" id="2211620913" lat="47.3797518" lon="8.5050388" timestamp="2013-03-20T17:34:55Z" uid="1234273" user="d_berger" version="1" />
+  <node changeset="15586030" id="2245278722" lat="47.3603151" lon="8.4254659" timestamp="2013-04-02T19:40:30Z" uid="186651" user="Teddych" version="1" />
+  <node changeset="15716793" id="2266246782" lat="47.3024471" lon="8.3158100" timestamp="2013-04-13T19:43:04Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="16042248" id="2273338824" lat="47.2743363" lon="8.3314130" timestamp="2013-05-09T06:27:41Z" uid="711403" user="recmar" version="2" />
+  <node changeset="15875239" id="2282340850" lat="47.3034653" lon="8.4847139" timestamp="2013-04-26T18:23:14Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="16014007" id="2294882639" lat="47.3203308" lon="8.5347169" timestamp="2013-05-07T16:29:28Z" uid="359735" user="The_Raven" version="1" />
+  <node changeset="17323676" id="2298254831" lat="47.3536313" lon="8.7670732" timestamp="2013-08-12T21:09:34Z" uid="178186" user="mdk" version="2" />
+  <node changeset="16136712" id="2304902766" lat="47.3451500" lon="8.7286268" timestamp="2013-05-15T10:05:48Z" uid="324188" user="ponte1112" version="1" />
+  <node changeset="16239203" id="2315930139" lat="47.2757543" lon="8.6198063" timestamp="2013-05-22T15:37:13Z" uid="286075" user="thomasF" version="1" />
+  <node changeset="16291868" id="2320582120" lat="47.3977598" lon="8.4210935" timestamp="2013-05-26T11:59:19Z" uid="908746" user="dulix9" version="1" />
+  <node changeset="21266498" id="2329571723" lat="47.3574201" lon="8.4766505" timestamp="2014-03-23T15:45:41Z" uid="427807" user="samden" version="2" />
+  <node changeset="16501135" id="2339662509" lat="47.3454716" lon="8.5915918" timestamp="2013-06-10T19:45:10Z" uid="14686" user="mgeiser" version="1" />
+  <node changeset="36881130" id="2353235597" lat="47.4226853" lon="8.6293499" timestamp="2016-01-29T15:06:03Z" uid="719152" user="Lynx87" version="3">
+    <tag k="name" v="Hotz" />
+    <tag k="shop" v="bakery" />
+    <tag k="wheelchair" v="no" />
+  </node>
+  <node changeset="16828064" id="2374217594" lat="47.2970050" lon="8.4432251" timestamp="2013-07-04T20:44:44Z" uid="480624" user="dlu" version="1" />
+  <node changeset="17025517" id="2390708137" lat="47.3899130" lon="8.7972833" timestamp="2013-07-20T17:29:37Z" uid="178186" user="mdk" version="1" />
+  <node changeset="17233649" id="2408277206" lat="47.4520946" lon="8.5620168" timestamp="2013-08-05T21:12:08Z" uid="163622" user="pneff" version="1">
+    <tag k="amenity" v="arrival" />
+    <tag k="level" v="0" />
+    <tag k="name" v="Ankunft 1" />
+    <tag k="name:en" v="Arrival 1" />
+  </node>
+  <node changeset="17357400" id="2419673858" lat="47.4125234" lon="8.5672921" timestamp="2013-08-15T10:26:28Z" uid="122213" user="kds_ch" version="1" />
+  <node changeset="17502424" id="2431237922" lat="47.2985124" lon="8.6875101" timestamp="2013-08-25T16:17:39Z" uid="1723526" user="schwardl" version="1" />
+  <node changeset="17675930" id="2446113861" lat="47.4576854" lon="8.7761212" timestamp="2013-09-04T18:01:57Z" uid="481380" user="Nzara" version="1" />
+  <node changeset="17853569" id="2459524471" lat="47.3553203" lon="8.5110924" timestamp="2013-09-15T16:43:58Z" uid="26726" user="lonvia" version="1" />
+  <node changeset="17958953" id="2466643178" lat="47.2792694" lon="8.6201858" timestamp="2013-09-21T15:58:12Z" uid="286075" user="thomasF" version="1" />
+  <node changeset="18028808" id="2471158032" lat="47.2780926" lon="8.6218268" timestamp="2013-09-25T14:26:46Z" uid="286075" user="thomasF" version="1" />
+  <node changeset="18109929" id="2477626441" lat="47.3655663" lon="8.6801574" timestamp="2013-09-30T12:55:04Z" uid="324188" user="ponte1112" version="1" />
+  <node changeset="18333227" id="2495011445" lat="47.3682002" lon="8.6781674" timestamp="2013-10-13T14:14:08Z" uid="324188" user="ponte1112" version="1">
+    <tag k="natural" v="tree" />
+  </node><node changeset="18491608" id="2505290345" lat="47.3595342" lon="8.5694986" timestamp="2013-10-22T19:40:46Z" uid="427807" user="samden" version="1" />
+  <node changeset="18568478" id="2510468614" lat="47.3822581" lon="8.6761269" timestamp="2013-10-27T15:52:33Z" uid="324188" user="ponte1112" version="1">
+    <tag k="natural" v="tree" />
+  </node>
+  <node changeset="18620786" id="2514159471" lat="47.3922182" lon="8.6964405" timestamp="2013-10-30T17:15:20Z" uid="324188" user="ponte1112" version="1" />
+  <node changeset="18767569" id="2523353947" lat="47.3839772" lon="8.7581895" timestamp="2013-11-07T16:42:33Z" uid="324188" user="ponte1112" version="1">
+    <tag k="natural" v="tree" />
+  </node>
+  <node changeset="18878484" id="2531014670" lat="47.2862904" lon="8.6254217" timestamp="2013-11-13T17:38:08Z" uid="908746" user="dulix9" version="1" />
+  <node changeset="19050706" id="2544740722" lat="47.3304042" lon="8.7969943" timestamp="2013-11-22T10:50:07Z" uid="324188" user="ponte1112" version="1" />
+  <node changeset="31315183" id="2559999464" lat="47.3750232" lon="8.4840647" timestamp="2015-05-20T13:46:32Z" uid="92387" user="SimonPoole" version="4" />
+  <node changeset="19490169" id="2583017378" lat="47.4766396" lon="8.7028010" timestamp="2013-12-16T22:29:20Z" uid="178186" user="mdk" version="1" />
+  <node changeset="19771173" id="2606712394" lat="47.4298025" lon="8.5113845" timestamp="2014-01-02T19:54:58Z" uid="35560" user="Peilscheibe" version="1">
+    <tag k="emergency" v="phone" />
+  </node>
+  <node changeset="34579145" id="2622632830" lat="47.3065707" lon="8.6820766" timestamp="2015-10-11T22:00:20Z" uid="2370195" user="SBchCH" version="3">
+    <tag k="addr:city" v="Hinteregg" />
+    <tag k="addr:housenumber" v="14" />
+    <tag k="addr:postcode" v="8132" />
+    <tag k="addr:street" v="Im Leeacher" />
+  </node>
+  <node changeset="27747795" id="2636675969" lat="47.3921150" lon="8.5338811" timestamp="2014-12-28T08:04:31Z" uid="1218134" user="Sarob" version="2">
+    <tag k="entrance" v="main" />
+  </node>
+  <node changeset="20320261" id="2647926492" lat="47.4037408" lon="8.2691763" timestamp="2014-02-01T17:21:00Z" uid="8296" user="kuede" version="1" />
+  <node changeset="20862341" id="2697611669" lat="47.2763070" lon="8.4100234" timestamp="2014-03-02T11:24:29Z" uid="480624" user="dlu" version="1" />
+  <node changeset="20991850" id="2707286673" lat="47.4726852" lon="8.3078060" timestamp="2014-03-08T18:25:43Z" uid="359735" user="The_Raven" version="1">
+    <tag k="addr:housenumber" v="27" />
+    <tag k="addr:street" v="Weite Gasse" />
+    <tag k="entrance" v="yes" />
+  </node>
+  <node changeset="21315573" id="2743561477" lat="47.2805417" lon="8.7551697" timestamp="2014-03-25T23:10:16Z" uid="14159" user="teich" version="1" />
+  <node changeset="21664071" id="2787807582" lat="47.3596457" lon="8.5656070" timestamp="2014-04-13T12:20:07Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="21826529" id="2805186277" lat="47.3813007" lon="8.7795484" timestamp="2014-04-21T00:47:10Z" uid="178186" user="mdk" version="1">
+    <tag k="natural" v="tree" />
+  </node>
+  <node changeset="21951609" id="2817603157" lat="47.4521355" lon="8.5482484" timestamp="2014-04-26T10:50:17Z" uid="257555" user="rene78" version="1" />
+  <node changeset="22069298" id="2829657940" lat="47.3795853" lon="8.7978040" timestamp="2014-05-01T18:00:33Z" uid="178186" user="mdk" version="1" />
+  <node changeset="22374102" id="2862349396" lat="47.4545411" lon="8.3227145" timestamp="2014-05-16T15:42:46Z" uid="359735" user="The_Raven" version="1">
+    <tag k="amenity" v="waste_basket" />
+  </node>
+  <node changeset="37313032" id="2890008017" lat="47.3974435" lon="8.5099260" timestamp="2016-02-19T17:18:43Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="22820612" id="2906585690" lat="47.4536462" lon="8.6975885" timestamp="2014-06-09T01:16:37Z" uid="178186" user="mdk" version="1">
+    <tag k="natural" v="tree" />
+  </node>
+  <node changeset="22820612" id="2906589943" lat="47.4663130" lon="8.6843407" timestamp="2014-06-09T01:18:28Z" uid="178186" user="mdk" version="1" />
+  <node changeset="22970723" id="2919159660" lat="47.3087948" lon="8.6860103" timestamp="2014-06-16T19:08:46Z" uid="266672" user="tf66" version="1" />
+  <node changeset="23079427" id="2927395033" lat="47.3712081" lon="8.5412414" timestamp="2014-06-22T12:02:09Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="24020829" id="2953910480" lat="47.3579321" lon="8.7919974" timestamp="2014-07-08T09:56:00Z" uid="555807" user="Internethias" version="1" />
+  <node changeset="24398609" id="2984223890" lat="47.3852495" lon="8.4893566" timestamp="2014-07-28T09:47:35Z" uid="30353" user="eifachich" version="1" />
+  <node changeset="24862119" id="3027664941" lat="47.3668913" lon="8.3654201" timestamp="2014-08-19T15:14:23Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="25132098" id="3051407614" lat="47.3740347" lon="8.3584374" timestamp="2014-08-31T07:51:02Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="25410560" id="3074881783" lat="47.3625495" lon="8.3641605" timestamp="2014-09-13T12:32:58Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="25530557" id="3085297920" lat="47.4665809" lon="8.3108998" timestamp="2014-09-18T21:31:52Z" uid="257555" user="rene78" version="1" />
+  <node changeset="25653752" id="3094809100" lat="47.3506376" lon="8.7006784" timestamp="2014-09-24T21:04:24Z" uid="69380" user="Mathias Wittwer" version="1">
+    <tag k="addr:city" v="Uster" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="15" />
+    <tag k="addr:postcode" v="8610" />
+    <tag k="addr:street" v="Wildsbergstrasse" />
+  </node>
+  <node changeset="25822855" id="3108534320" lat="47.3570218" lon="8.7063264" timestamp="2014-10-03T01:56:23Z" uid="178186" user="mdk" version="1" />
+  <node changeset="25841345" id="3110224521" lat="47.3620280" lon="8.3709700" timestamp="2014-10-03T21:22:52Z" uid="1816417" user="p4th" version="1" />
+  <node changeset="25885936" id="3113636378" lat="47.3906321" lon="8.6611858" timestamp="2014-10-05T21:44:55Z" uid="178186" user="mdk" version="1" />
+  <node changeset="26070524" id="3129204702" lat="47.3708112" lon="8.4138097" timestamp="2014-10-14T12:08:52Z" uid="186651" user="Teddych" version="1" />
+  <node changeset="26249951" id="3143402375" lat="47.4154008" lon="8.3673653" timestamp="2014-10-22T07:43:10Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="26539713" id="3165885185" lat="47.3118188" lon="8.7837362" timestamp="2014-11-04T00:43:58Z" uid="178186" user="mdk" version="1">
+    <tag k="natural" v="tree" />
+  </node>
+  <node changeset="26660625" id="3176508572" lat="47.3313654" lon="8.6525565" timestamp="2014-11-09T11:32:07Z" uid="2110714" user="captain_slow" version="1" />
+  <node changeset="26923479" id="3198261093" lat="47.4178728" lon="8.3610422" timestamp="2014-11-21T08:15:54Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="27107810" id="3210431143" lat="47.3760702" lon="8.5458768" timestamp="2014-11-29T10:08:46Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="29923998" id="3231772118" lat="47.3832531" lon="8.4744045" timestamp="2015-04-02T09:54:06Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="27468104" id="3235059480" lat="47.2902790" lon="8.3903338" timestamp="2014-12-14T20:39:45Z" uid="14159" user="teich" version="1" />
+  <node changeset="27603742" id="3245760082" lat="47.3853696" lon="8.5392811" timestamp="2014-12-21T08:23:08Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="27694591" id="3252527421" lat="47.2846259" lon="8.4583573" timestamp="2014-12-25T19:14:57Z" uid="2110714" user="captain_slow" version="1" />
+  <node changeset="27776602" id="3258085103" lat="47.3937961" lon="8.5295602" timestamp="2014-12-29T13:25:02Z" uid="1218134" user="Sarob" version="1">
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="12" />
+    <tag k="addr:postcode" v="8037" />
+    <tag k="addr:street" v="Scheffelstrasse" />
+    <tag k="source:addr" v="survey" />
+  </node>
+  <node changeset="27907776" id="3268732086" lat="47.3451218" lon="8.6744432" timestamp="2015-01-04T12:03:35Z" uid="2110714" user="captain_slow" version="1" />
+  <node changeset="28087102" id="3283838164" lat="47.3775009" lon="8.4215536" timestamp="2015-01-12T13:59:22Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="28182154" id="3292057574" lat="47.3526886" lon="8.2860225" timestamp="2015-01-16T10:07:03Z" uid="359735" user="The_Raven" version="1" />
+  <node changeset="28242172" id="3297676666" lat="47.4292688" lon="8.4401475" timestamp="2015-01-18T23:06:21Z" uid="178186" user="mdk" version="1" />
+  <node changeset="28398730" id="3309911426" lat="47.3861088" lon="8.4951823" timestamp="2015-01-25T15:45:30Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="28595304" id="3328764555" lat="47.3730741" lon="8.5341609" timestamp="2015-02-03T18:20:35Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="28734657" id="3340359648" lat="47.3701265" lon="8.5363950" timestamp="2015-02-09T18:53:15Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="35971133" id="3352542520" lat="47.3999072" lon="8.4920547" timestamp="2015-12-15T17:01:28Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="28993844" id="3362962218" lat="47.4038561" lon="8.5447198" timestamp="2015-02-21T08:48:04Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="29157421" id="3376514926" lat="47.4044584" lon="8.5505927" timestamp="2015-02-28T15:06:03Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="29230272" id="3381724381" lat="47.3664402" lon="8.4918732" timestamp="2015-03-03T19:50:54Z" uid="2110714" user="captain_slow" version="1" />
+  <node changeset="29306664" id="3387592302" lat="47.4179887" lon="8.3744747" timestamp="2015-03-07T11:44:33Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="29598099" id="3407391471" lat="47.3831135" lon="8.5577357" timestamp="2015-03-19T18:30:26Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="29702586" id="3415809720" lat="47.3846433" lon="8.5089172" timestamp="2015-03-24T12:49:58Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="29802143" id="3423207055" lat="47.3789840" lon="8.5500684" timestamp="2015-03-28T10:21:40Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="29938387" id="3432130056" lat="47.4007021" lon="8.4004428" timestamp="2015-04-02T21:01:59Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="30021655" id="3441413454" lat="47.3705471" lon="8.5624092" timestamp="2015-04-06T17:37:32Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="30095085" id="3446756491" lat="47.3850184" lon="8.3300197" timestamp="2015-04-09T14:33:45Z" uid="359735" user="The_Raven" version="1" />
+  <node changeset="30162481" id="3451879609" lat="47.3026374" lon="8.6868326" timestamp="2015-04-12T12:40:51Z" uid="32765" user="niekbergboer" version="1" />
+  <node changeset="30291649" id="3461860102" lat="47.3713382" lon="8.5667716" timestamp="2015-04-17T17:53:50Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="30471060" id="3476233091" lat="47.3646899" lon="8.5703048" timestamp="2015-04-25T10:18:36Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="30619589" id="3486585620" lat="47.4114465" lon="8.5106643" timestamp="2015-04-29T13:14:14Z" uid="709355" user="Alex Myczko" version="1" />
+  <node changeset="30751720" id="3495249577" lat="47.3551242" lon="8.2715381" timestamp="2015-05-03T15:43:23Z" uid="359735" user="The_Raven" version="1" />
+  <node changeset="31145503" id="3517483766" lat="47.3603953" lon="8.5515097" timestamp="2015-05-14T15:44:23Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="31281439" id="3528264582" lat="47.3038055" lon="8.3140805" timestamp="2015-05-19T11:58:06Z" uid="190676" user="highbuilder" version="1" />
+  <node changeset="31436027" id="3543341140" lat="47.3624187" lon="8.5566066" timestamp="2015-05-25T06:28:26Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="31582489" id="3558236119" lat="47.3534762" lon="8.5568283" timestamp="2015-05-30T11:37:10Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="31851386" id="3583959855" lat="47.3506429" lon="8.5655280" timestamp="2015-06-09T18:01:42Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="32166010" id="3598732816" lat="47.3579518" lon="8.3687581" timestamp="2015-06-23T16:49:58Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="32121889" id="3609332289" lat="47.3448771" lon="8.2924769" timestamp="2015-06-21T17:19:43Z" uid="359735" user="The_Raven" version="1" />
+  <node changeset="32204295" id="3617509530" lat="47.3708100" lon="8.4968432" timestamp="2015-06-25T12:37:15Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="33827776" id="3642362111" lat="47.3540602" lon="8.5272838" timestamp="2015-09-06T08:27:10Z" uid="92387" user="SimonPoole" version="2" />
+  <node changeset="32964155" id="3672341964" lat="47.4160850" lon="8.5518865" timestamp="2015-07-29T19:25:03Z" uid="64876" user="Andreeeee" version="1">
+    <tag k="amenity" v="charging_station" />
+  </node>
+  <node changeset="33263319" id="3691165354" lat="47.3488119" lon="8.4971470" timestamp="2015-08-11T11:11:42Z" uid="257555" user="rene78" version="1" />
+  <node changeset="33493809" id="3708563317" lat="47.3550585" lon="8.3647246" timestamp="2015-08-21T20:59:10Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="33578100" id="3713960880" lat="47.3752262" lon="8.5148395" timestamp="2015-08-25T17:48:31Z" uid="14390" user="BeKri" version="1" />
+  <node changeset="33753090" id="3726136828" lat="47.3532553" lon="8.6006449" timestamp="2015-09-02T14:20:16Z" uid="1218134" user="Sarob" version="1" />
+  <node changeset="33849483" id="3732557344" lat="47.3720465" lon="8.5247405" timestamp="2015-09-07T07:46:27Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="33890891" id="3734936903" lat="47.3371208" lon="8.7304711" timestamp="2015-09-08T19:03:33Z" uid="178186" user="mdk" version="1" />
+  <node changeset="34009863" id="3741947782" lat="47.4240053" lon="8.7675673" timestamp="2015-09-13T22:17:42Z" uid="178186" user="mdk" version="1" />
+  <node changeset="34057423" id="3745202310" lat="47.3572099" lon="8.5274381" timestamp="2015-09-16T08:38:22Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="34152275" id="3752275357" lat="47.4341076" lon="8.7241036" timestamp="2015-09-21T01:07:12Z" uid="178186" user="mdk" version="1" />
+  <node changeset="34318691" id="3763413869" lat="47.3431211" lon="8.2839234" timestamp="2015-09-29T07:21:25Z" uid="359735" user="The_Raven" version="1" />
+  <node changeset="34580356" id="3782710359" lat="47.3988306" lon="8.5169719" timestamp="2015-10-12T00:07:05Z" uid="3012156" user="eagleeye_zh" version="1" />
+  <node changeset="34869879" id="3802851756" lat="47.4717277" lon="8.5450177" timestamp="2015-10-25T22:41:22Z" uid="257555" user="rene78" version="1" />
+  <node changeset="34913464" id="3805816148" lat="47.3003470" lon="8.3121963" timestamp="2015-10-27T20:45:54Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="35001430" id="3811713881" lat="47.4231538" lon="8.8018953" timestamp="2015-10-31T21:49:22Z" uid="178186" user="mdk" version="1" />
+  <node changeset="35103853" id="3818817359" lat="47.2888893" lon="8.5639242" timestamp="2015-11-05T15:09:34Z" uid="452231" user="balducien" version="1" />
+  <node changeset="35132814" id="3821328478" lat="47.2962626" lon="8.3608137" timestamp="2015-11-06T18:48:17Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="35213905" id="3828487891" lat="47.3585762" lon="8.5092404" timestamp="2015-11-10T12:26:00Z" uid="190676" user="highbuilder" version="1" />
+  <node changeset="35295440" id="3835016816" lat="47.4264231" lon="8.4122343" timestamp="2015-11-13T22:34:41Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="45885874" id="3841317775" lat="47.3982987" lon="8.5954634" timestamp="2017-02-07T13:34:53Z" uid="173454" user="Tschubby" version="2" />
+  <node changeset="35457882" id="3846449448" lat="47.2905797" lon="8.5638004" timestamp="2015-11-20T10:25:12Z" uid="452231" user="balducien" version="1" />
+  <node changeset="35495721" id="3849728724" lat="47.3374613" lon="8.3050669" timestamp="2015-11-21T19:44:57Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="35513193" id="3851995451" lat="47.4520654" lon="8.3961015" timestamp="2015-11-22T17:33:59Z" uid="1894634" user="Wikilux" version="1" />
+  <node changeset="35580496" id="3859673150" lat="47.3440794" lon="8.2708068" timestamp="2015-11-25T21:10:07Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="35635953" id="3865868271" lat="47.2989489" lon="8.5498681" timestamp="2015-11-28T20:54:56Z" uid="452231" user="balducien" version="1">
+    <tag k="addr:housenumber" v="8a" />
+    <tag k="addr:street" v="Langentannenstrasse" />
+  </node>
+  <node changeset="35700474" id="3872430024" lat="47.2943715" lon="8.5607672" timestamp="2015-12-02T07:39:17Z" uid="452231" user="balducien" version="1" />
+  <node changeset="35813665" id="3882334154" lat="47.4122930" lon="8.4812391" timestamp="2015-12-07T19:31:05Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="35928554" id="3890554673" lat="47.4104873" lon="8.4838570" timestamp="2015-12-13T16:07:53Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="36000299" id="3895905686" lat="47.3660427" lon="8.5081398" timestamp="2015-12-17T00:13:53Z" uid="157184" user="meekjt" version="2" />
+  <node changeset="36054983" id="3900603362" lat="47.2763559" lon="8.3496855" timestamp="2015-12-19T21:57:48Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="36151119" id="3908707238" lat="47.2891393" lon="8.5578164" timestamp="2015-12-24T22:06:54Z" uid="452231" user="balducien" version="1" />
+  <node changeset="36206207" id="3913416641" lat="47.3436602" lon="8.3556206" timestamp="2015-12-27T21:24:53Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="37740372" id="3919596048" lat="47.4045574" lon="8.6114272" timestamp="2016-03-10T17:20:07Z" uid="2110714" user="captain_slow" version="2" />
+  <node changeset="36318207" id="3923539122" lat="47.3720668" lon="8.3065511" timestamp="2016-01-02T13:52:01Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="36366843" id="3927573489" lat="47.3476786" lon="8.3807663" timestamp="2016-01-04T19:15:12Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="36444939" id="3933829737" lat="47.4042615" lon="8.4974879" timestamp="2016-01-08T13:33:55Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="36502154" id="3939419042" lat="47.4201091" lon="8.6194892" timestamp="2016-01-11T12:23:57Z" uid="3080626" user="Weltstaat" version="1" />
+  <node changeset="36565164" id="3945340762" lat="47.3634123" lon="8.3448335" timestamp="2016-01-14T08:07:54Z" uid="3172019" user="nurdafur" version="1" />
+  <node changeset="36688562" id="3955820860" lat="47.3157884" lon="8.3882968" timestamp="2016-01-19T20:59:01Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="36782664" id="3964771333" lat="47.3022797" lon="8.4024041" timestamp="2016-01-24T19:23:26Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="36906782" id="3978730878" lat="47.2934486" lon="8.4004178" timestamp="2016-01-30T22:02:15Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="36966507" id="3984921167" lat="47.3162442" lon="8.4134598" timestamp="2016-02-02T21:14:50Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="37110144" id="3997992659" lat="47.3042002" lon="8.3562444" timestamp="2016-02-09T20:08:46Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="37672754" id="4046303665" lat="47.3924404" lon="8.5278317" timestamp="2016-03-07T19:41:46Z" uid="3012156" user="eagleeye_zh" version="1" />
+  <node changeset="37811888" id="4059150726" lat="47.4750100" lon="8.3054951" timestamp="2016-03-14T04:03:33Z" uid="404269" user="nick_" version="1" />
+  <node changeset="37959848" id="4070070882" lat="47.3747752" lon="8.4844430" timestamp="2016-03-20T17:21:30Z" uid="2946383" user="sismoclo" version="1" />
+  <node changeset="38068536" id="4078629384" lat="47.3108272" lon="8.7268677" timestamp="2016-03-25T18:28:18Z" uid="2110714" user="captain_slow" version="1" />
+  <node changeset="38257931" id="4094232867" lat="47.2813606" lon="8.4067954" timestamp="2016-04-02T23:06:56Z" uid="2110714" user="captain_slow" version="1">
+    <tag k="leisure" v="playground" />
+  </node>
+  <node changeset="38580142" id="4122980100" lat="47.4101541" lon="8.5253218" timestamp="2016-04-15T07:52:55Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="38893209" id="4149641869" lat="47.4154709" lon="8.5265597" timestamp="2016-04-26T16:36:39Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="39320377" id="4186026143" lat="47.4274171" lon="8.5371572" timestamp="2016-05-14T21:08:50Z" uid="2110714" user="captain_slow" version="1">
+    <tag k="addr:housenumber" v="95" />
+    <tag k="addr:street" v="Schönauring" />
+  </node>
+  <node changeset="39525426" id="4203903745" lat="47.4174227" lon="8.5430661" timestamp="2016-05-24T06:42:46Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="39694399" id="4217847716" lat="47.3212996" lon="8.3078181" timestamp="2016-05-31T18:03:35Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="40000149" id="4241843889" lat="47.3417562" lon="8.5302213" timestamp="2016-06-13T19:17:39Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="40129614" id="4252191025" lat="47.4351774" lon="8.6377183" timestamp="2016-06-19T07:27:14Z" uid="214764" user="Lirum Larum" version="1" />
+  <node changeset="40250591" id="4261987158" lat="47.4433826" lon="8.5471547" timestamp="2016-06-24T05:32:33Z" uid="214764" user="Lirum Larum" version="1" />
+  <node changeset="40330152" id="4268770405" lat="47.4406099" lon="8.6201323" timestamp="2016-06-27T20:33:12Z" uid="214764" user="Lirum Larum" version="1" />
+  <node changeset="40487947" id="4283183304" lat="47.4012154" lon="8.5525121" timestamp="2016-07-04T21:45:08Z" uid="3541204" user="munh" version="1" />
+  <node changeset="40790350" id="4306889137" lat="47.4395960" lon="8.6289201" timestamp="2016-07-17T01:42:45Z" uid="214764" user="Lirum Larum" version="1" />
+  <node changeset="40974269" id="4317246440" lat="47.3970907" lon="8.7160375" timestamp="2016-07-23T15:42:46Z" uid="214764" user="Lirum Larum" version="1" />
+  <node changeset="41281065" id="4337939019" lat="47.2923140" lon="8.4828104" timestamp="2016-08-06T03:00:21Z" uid="14159" user="teich" version="1" />
+  <node changeset="41476992" id="4351728899" lat="47.3221301" lon="8.5774023" timestamp="2016-08-15T21:21:44Z" uid="257555" user="rene78" version="1" />
+  <node changeset="41791919" id="4375042220" lat="47.2898625" lon="8.7125752" timestamp="2016-08-30T02:34:40Z" uid="14159" user="teich" version="1" />
+  <node changeset="42151167" id="4401245286" lat="47.4002099" lon="8.5322660" timestamp="2016-09-14T14:30:01Z" uid="3012156" user="eagleeye_zh" version="1" />
+  <node changeset="42542242" id="4424983218" lat="47.3777950" lon="8.5389118" timestamp="2016-09-30T13:17:10Z" uid="481380" user="Nzara" version="1" />
+  <node changeset="42849968" id="4445188078" lat="47.2882108" lon="8.2830929" timestamp="2016-10-13T07:55:18Z" uid="4683476" user="Patrick1994" version="1" />
+  <node changeset="43153142" id="4463109301" lat="47.4116708" lon="8.5524361" timestamp="2016-10-25T09:54:40Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="43971206" id="4523846133" lat="47.3727578" lon="8.3790563" timestamp="2016-11-26T20:35:48Z" uid="465052" user="hecktor" version="1" />
+  <node changeset="44333575" id="4549941451" lat="47.3338436" lon="8.5386595" timestamp="2016-12-11T22:22:10Z" uid="92387" user="SimonPoole" version="1" />
+  <node changeset="44730641" id="4577366544" lat="47.3814287" lon="8.4903169" timestamp="2016-12-28T13:20:11Z" uid="190676" user="highbuilder" version="1" />
+  <node changeset="44952908" id="4592577762" lat="47.3153471" lon="8.4735355" timestamp="2017-01-06T13:19:27Z" uid="16423" user="aseigo" version="1" />
+  <node changeset="45404401" id="4625687584" lat="47.4002826" lon="8.4479641" timestamp="2017-01-23T16:20:29Z" uid="2110714" user="captain_slow" version="1" />
+  <node changeset="45825747" id="4665101301" lat="47.3494175" lon="8.6435422" timestamp="2017-02-05T10:57:09Z" uid="2110714" user="captain_slow" version="1" />
+  <node changeset="46450508" id="4708833611" lat="47.3229596" lon="8.5187566" timestamp="2017-02-27T20:05:05Z" uid="5300449" user="ToastHawaii" version="1" />
+  <node changeset="47639698" id="4787165345" lat="47.4308426" lon="8.3716420" timestamp="2017-04-10T21:41:24Z" uid="2110714" user="captain_slow" version="1" />
+  <node changeset="48284069" id="4827130170" lat="47.3752716" lon="8.5363227" timestamp="2017-04-30T15:23:56Z" uid="1234273" user="d_berger" version="1">
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="31-35" />
+    <tag k="addr:postcode" v="8001" />
+    <tag k="addr:street" v="Löwenstrasse" />
+    <tag k="brand" v="Migros" />
+    <tag k="level" v="-1" />
+    <tag k="name" v="SportXX City" />
+    <tag k="opening_hours" v="Mo-Sa 09:00-20:00" />
+    <tag k="operator" v="Genossenschaft Migros Zürich" />
+    <tag k="shop" v="sports" />
+  </node>
+  <node changeset="48593319" id="4847716420" lat="47.4720464" lon="8.3218056" timestamp="2017-05-11T14:06:49Z" uid="459185" user="Laegerezwergli" version="1">
+    <tag k="emergency" v="fire_hydrant" />
+    <tag k="fire_hydrant:type" v="pillar" />
+    <tag k="operator" v="EW Wettingen" />
+    <tag k="ref" v="207" />
+    <tag k="survey:date" v="2017-05-11" />
+  </node>
+  <way changeset="48499548" id="10595452" timestamp="2017-05-08T11:45:53Z" uid="1234273" user="d_berger" version="16">
+    <nd ref="92539163" />
+    <nd ref="92539180" />
+    <nd ref="4841546254" />
+    <nd ref="92539179" />
+    <nd ref="959515128" />
+    <nd ref="92539175" />
+    <nd ref="963277357" />
+    <nd ref="4841545889" />
+    <nd ref="92539168" />
+    <nd ref="92539166" />
+    <nd ref="4566839189" />
+    <nd ref="92539164" />
+    <nd ref="963330008" />
+    <nd ref="4841545890" />
+    <nd ref="92539163" />
+    <tag k="addr:city" v="Wallisellen" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="99" />
+    <tag k="addr:place" v="Glattzentrum" />
+    <tag k="addr:postcode" v="8301" />
+    <tag k="addr:street" v="Neue Winterthurerstrasse" />
+    <tag k="building" v="retail" />
+    <tag k="building:levels" v="4" />
+    <tag k="layer" v="2" />
+    <tag k="max_level" v="3" />
+    <tag k="min_level" v="-1" />
+    <tag k="name" v="Glattzentrum" />
+    <tag k="official_name" v="Einkaufszentrum Glatt" />
+    <tag k="opening_hours" v="Mo-Sa 09:00-20:00" />
+    <tag k="operator" v="Betriebsgesellschaft Zentrum Glatt" />
+    <tag k="shop" v="mall" />
+    <tag k="website" v="https://www.glatt.ch/" />
+    <tag k="wheelchair" v="yes" />
+  </way>
+  <way changeset="27660642" id="20343121" timestamp="2014-12-23T21:43:44Z" uid="291461" user="Why-T" version="4">
+    <nd ref="28103840" />
+    <nd ref="216159145" />
+    <nd ref="3250130342" />
+    <nd ref="3250130341" />
+    <nd ref="216159147" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Schulhausstrasse" />
+  </way>
+  <way changeset="711388" id="25807298" timestamp="2008-11-08T07:44:39Z" uid="37799" user="Adrian Vogt" version="6">
+    <nd ref="274999186" />
+    <nd ref="274999187" />
+    <nd ref="274999188" />
+    <nd ref="274999189" />
+    <nd ref="274999113" />
+    <tag k="highway" v="path" />
+    <tag k="sac_scale" v="hiking" />
+  </way>
+  <way changeset="35629107" id="27679770" timestamp="2015-11-28T14:21:38Z" uid="178186" user="mdk" version="8">
+    <nd ref="304002609" />
+    <nd ref="304002604" />
+    <nd ref="1422923824" />
+    <nd ref="1422923822" />
+    <nd ref="2594549161" />
+    <nd ref="304002598" />
+    <nd ref="1422923819" />
+    <nd ref="1422923820" />
+    <nd ref="304002592" />
+    <nd ref="2594549163" />
+    <nd ref="304002586" />
+    <nd ref="304002581" />
+    <nd ref="1093600446" />
+    <nd ref="304002575" />
+    <nd ref="1094652365" />
+    <nd ref="2594549219" />
+    <nd ref="304002570" />
+    <nd ref="301622510" />
+    <tag k="highway" v="residential" />
+    <tag k="maxspeed" v="30" />
+    <tag k="name" v="Berghaldenstrasse" />
+    <tag k="source:maxspeed" v="zone" />
+  </way>
+  <way changeset="677205" id="29272313" timestamp="2008-12-29T21:43:14Z" uid="68913" user="Xango" version="5">
+    <nd ref="321887035" />
+    <nd ref="321887036" />
+    <nd ref="321886776" />
+    <nd ref="321886777" />
+    <nd ref="321886778" />
+    <nd ref="321886779" />
+    <nd ref="321886780" />
+    <tag k="bicycle" v="yes" />
+    <tag k="created_by" v="Potlatch 0.10f" />
+    <tag k="foot" v="yes" />
+    <tag k="highway" v="path" />
+  </way>
+  <way changeset="36675216" id="31570504" timestamp="2016-01-19T09:35:37Z" uid="2744797" user="Sibo Dolem" version="5">
+    <nd ref="353262653" />
+    <nd ref="1416629108" />
+    <nd ref="1416629107" />
+    <nd ref="1416629106" />
+    <nd ref="1416629105" />
+    <nd ref="1416629104" />
+    <nd ref="1416629101" />
+    <nd ref="1416629089" />
+    <nd ref="353262654" />
+    <tag k="highway" v="service" />
+    <tag k="layer" v="-1" />
+    <tag k="oneway" v="yes" />
+    <tag k="surface" v="asphalt" />
+    <tag k="tunnel" v="yes" />
+  </way>
+  <way changeset="8595419" id="32674039" timestamp="2011-07-01T01:43:53Z" uid="194843" user="feuerstein" version="3">
+    <nd ref="367652611" />
+    <nd ref="1342735741" />
+    <nd ref="1342735781" />
+    <nd ref="367652616" />
+    <nd ref="367652622" />
+    <tag k="access" v="yes" />
+    <tag k="highway" v="track" />
+    <tag k="motorcar" v="private" />
+    <tag k="motorcycle" v="private" />
+    <tag k="source" v="Yahoo" />
+    <tag k="surface" v="paved" />
+    <tag k="tracktype" v="grade1" />
+  </way>
+  <way changeset="29987554" id="33855411" timestamp="2015-04-05T08:35:43Z" uid="1218134" user="Sarob" version="4">
+    <nd ref="387859381" />
+    <nd ref="387859382" />
+    <nd ref="387859384" />
+    <nd ref="3438830640" />
+    <nd ref="3438830648" />
+    <nd ref="387859385" />
+    <nd ref="387859381" />
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="62" />
+    <tag k="addr:postcode" v="8044" />
+    <tag k="addr:street" v="Gloriastrasse" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Stadt Zürich Open Government Data; Geomatik + Vermessung; Tiefbau- und Entsorgungsdepartement" />
+  </way>
+  <way changeset="34030747" id="35727852" timestamp="2015-09-14T22:24:12Z" uid="178186" user="mdk" version="8">
+    <nd ref="418003272" />
+    <nd ref="1024131035" />
+    <nd ref="1024129257" />
+    <nd ref="418003675" />
+    <nd ref="1024130186" />
+    <nd ref="1024128635" />
+    <nd ref="418003676" />
+    <nd ref="1218761928" />
+    <nd ref="418003677" />
+    <nd ref="418003678" />
+    <nd ref="418003679" />
+    <nd ref="1478057767" />
+    <nd ref="418003680" />
+    <nd ref="418003681" />
+    <nd ref="418003682" />
+    <nd ref="418003683" />
+    <nd ref="418003684" />
+    <nd ref="418003685" />
+    <nd ref="418003686" />
+    <nd ref="418003687" />
+    <nd ref="1478056029" />
+    <nd ref="1024130594" />
+    <nd ref="418003688" />
+    <nd ref="1024128613" />
+    <nd ref="259795337" />
+    <tag k="highway" v="track" />
+    <tag k="surface" v="gravel" />
+    <tag k="tracktype" v="grade2" />
+  </way>
+  <way changeset="11223042" id="38234670" timestamp="2012-04-08T09:48:07Z" uid="334389" user="ueliw0" version="4">
+    <nd ref="101730293" />
+    <nd ref="1706797035" />
+    <nd ref="101730295" />
+    <nd ref="101730296" />
+    <nd ref="101730297" />
+    <nd ref="567803453" />
+    <nd ref="101730298" />
+    <nd ref="567803454" />
+    <nd ref="101730299" />
+    <nd ref="1706797282" />
+    <nd ref="94805435" />
+    <tag k="highway" v="residential" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="Am Balsberg" />
+  </way>
+  <way changeset="31259194" id="39597361" timestamp="2015-05-18T15:54:58Z" uid="92387" user="SimonPoole" version="2">
+    <nd ref="474672810" />
+    <nd ref="474672818" />
+    <nd ref="474672828" />
+    <nd ref="474672831" />
+    <nd ref="474672810" />
+    <tag k="addr:housenumber" v="27e" />
+    <tag k="addr:street" v="Sackzelg" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="yahoo" />
+  </way>
+  <way changeset="2797808" id="42281676" timestamp="2009-10-09T20:58:06Z" uid="8296" user="kuede" version="1">
+    <nd ref="527419121" />
+    <nd ref="527419145" />
+    <nd ref="527419125" />
+    <nd ref="527419126" />
+    <nd ref="527419127" />
+    <nd ref="527419129" />
+    <nd ref="527419130" />
+    <nd ref="527419131" />
+    <nd ref="527419132" />
+    <nd ref="527419160" />
+    <nd ref="527419163" />
+    <nd ref="527419164" />
+    <nd ref="527419165" />
+    <nd ref="527419113" />
+    <nd ref="527419133" />
+    <nd ref="527419135" />
+    <nd ref="527419136" />
+    <nd ref="527419137" />
+    <nd ref="527419138" />
+    <nd ref="527419139" />
+    <nd ref="527419141" />
+    <nd ref="527419142" />
+    <nd ref="527419121" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Yahoo aerial images" />
+  </way>
+  <way changeset="3140300" id="44117202" timestamp="2009-11-17T11:49:57Z" uid="194843" user="feuerstein" version="2">
+    <nd ref="560607805" />
+    <nd ref="560607788" />
+    <nd ref="560607783" />
+    <nd ref="560607782" />
+    <nd ref="560607805" />
+    <tag k="addr:city" v="Dübendorf" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="20" />
+    <tag k="addr:postcode" v="8600" />
+    <tag k="addr:street" v="Meiershofstrasse" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="20271323" id="46469998" timestamp="2014-01-29T19:42:58Z" uid="1218134" user="Sarob" version="3">
+    <nd ref="593886863" />
+    <nd ref="593886866" />
+    <nd ref="593886869" />
+    <nd ref="593886872" />
+    <nd ref="2642481818" />
+    <nd ref="2642481821" />
+    <nd ref="2642481823" />
+    <nd ref="593886877" />
+    <nd ref="593886879" />
+    <nd ref="2642481836" />
+    <nd ref="593886882" />
+    <nd ref="2642481850" />
+    <tag k="highway" v="track" />
+    <tag k="motor_vehicle" v="no" />
+    <tag k="tracktype" v="grade2" />
+  </way>
+  <way changeset="30085867" id="49014320" timestamp="2015-04-09T08:41:29Z" uid="92387" user="SimonPoole" version="2">
+    <nd ref="622060111" />
+    <nd ref="622060118" />
+    <nd ref="622060123" />
+    <nd ref="622060104" />
+    <nd ref="622060111" />
+    <tag k="addr:housenumber" v="21" />
+    <tag k="addr:street" v="In der Ey" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="4060802" id="51892359" timestamp="2010-03-07T13:22:23Z" uid="91822" user="joshx" version="1">
+    <nd ref="662207949" />
+    <nd ref="662207950" />
+    <nd ref="662207948" />
+    <nd ref="662207947" />
+    <nd ref="662207949" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="4375682" id="54858963" timestamp="2010-04-09T18:07:00Z" uid="81893" user="schmandr" version="1">
+    <nd ref="690708331" />
+    <nd ref="690708324" />
+    <tag k="highway" v="steps" />
+  </way>
+  <way changeset="29156931" id="60805512" timestamp="2015-02-28T14:43:23Z" uid="1218134" user="Sarob" version="3">
+    <nd ref="761217667" />
+    <nd ref="761217641" />
+    <nd ref="761217657" />
+    <nd ref="761217644" />
+    <nd ref="761217667" />
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="10" />
+    <tag k="addr:postcode" v="8050" />
+    <tag k="addr:street" v="Hortensienstrasse" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Stadt Zürich Open Government Data; Geomatik + Vermessung; Tiefbau- und Entsorgungsdepartement" />
+  </way>
+  <way changeset="5186408" id="67130388" timestamp="2010-07-11T00:46:11Z" uid="52921" user="t-i" version="1">
+    <nd ref="111256916" />
+    <nd ref="99872923" />
+    <nd ref="99872924" />
+    <nd ref="581968401" />
+    <nd ref="99872925" />
+    <nd ref="99872926" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Egetswilerstrasse" />
+  </way>
+  <way changeset="48575301" id="74443152" timestamp="2017-05-10T22:24:37Z" uid="20869" user="cimnine" version="6">
+    <nd ref="269370889" />
+    <nd ref="260771745" />
+    <tag k="highway" v="tertiary" />
+    <tag k="maxspeed" v="50" />
+    <tag k="name" v="Hermikonstrasse" />
+    <tag k="surface" v="asphalt" />
+    <tag k="turn:lanes:backward" v="left|through" />
+  </way>
+  <way changeset="47864682" id="85345846" timestamp="2017-04-17T09:56:27Z" uid="3463958" user="Odiug2015" version="3">
+    <nd ref="1771392255" />
+    <nd ref="1771392256" />
+    <nd ref="1771392257" />
+    <nd ref="1771392258" />
+    <nd ref="1771392259" />
+    <nd ref="989428292" />
+    <nd ref="989428995" />
+    <tag k="highway" v="path" />
+    <tag k="tracktype" v="grade5" />
+  </way>
+  <way changeset="6609410" id="88892362" timestamp="2010-12-10T20:22:17Z" uid="66398" user="rubliexpress" version="1">
+    <nd ref="1031821629" />
+    <nd ref="1031819262" />
+    <nd ref="1031820630" />
+    <nd ref="1031819239" />
+    <nd ref="1031821629" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Bing" />
+  </way>
+  <way changeset="33843687" id="90896846" timestamp="2015-09-06T22:49:00Z" uid="178186" user="mdk" version="2">
+    <nd ref="1055400496" />
+    <nd ref="1055400261" />
+    <nd ref="1055400400" />
+    <nd ref="3732288380" />
+    <nd ref="3732288384" />
+    <nd ref="2958371105" />
+    <nd ref="2958371107" />
+    <nd ref="2958371106" />
+    <nd ref="2958371104" />
+    <nd ref="2958371103" />
+    <nd ref="2958371102" />
+    <nd ref="286343313" />
+    <nd ref="286343312" />
+    <nd ref="1049434114" />
+    <nd ref="1049434080" />
+    <nd ref="1412597800" />
+    <nd ref="1055400496" />
+    <tag k="addr:city" v="Seegräben" />
+    <tag k="addr:housenumber" v="8" />
+    <tag k="addr:postcode" v="8607" />
+    <tag k="addr:street" v="Aathalstrasse" />
+    <tag k="amenity" v="school" />
+    <tag k="name" v="Primarschule Neues Schulhaus" />
+    <tag k="note" v="Die Schulanlage besteht aus dem zweiteiligen Neuen Schulhaus, der Bibliothek sowie der neuen unterirdischen Turnhalle." />
+    <tag k="phone" v="+41 43 299 00 40" />
+    <tag k="school" v="primary" />
+    <tag k="school:CH" v="primarschule" />
+    <tag k="website" v="http://www.schule-seegraeben.ch/de/" />
+  </way>
+  <way changeset="37870044" id="93106655" timestamp="2016-03-16T12:10:45Z" uid="2110714" user="captain_slow" version="3">
+    <nd ref="1079262089" />
+    <nd ref="1079260430" />
+    <nd ref="1079260674" />
+    <nd ref="1079261028" />
+    <nd ref="1079262733" />
+    <nd ref="1079262369" />
+    <nd ref="1079262067" />
+    <nd ref="1079261802" />
+    <nd ref="1079261313" />
+    <nd ref="1079262822" />
+    <nd ref="1079262472" />
+    <nd ref="1079260972" />
+    <nd ref="1079263219" />
+    <nd ref="1079260924" />
+    <nd ref="1079261043" />
+    <nd ref="1079260693" />
+    <nd ref="2006400529" />
+    <nd ref="1079260800" />
+    <tag k="highway" v="service" />
+    <tag k="motor_vehicle" v="no" />
+  </way>
+  <way changeset="6969899" id="95132606" timestamp="2011-01-14T18:37:55Z" uid="392796" user="Burg-Kartograph" version="1">
+    <nd ref="1012729637" />
+    <nd ref="1103582709" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Weizenweg" />
+  </way>
+  <way changeset="7162370" id="97296118" timestamp="2011-02-02T08:28:05Z" uid="178186" user="mdk" version="2">
+    <nd ref="1126950930" />
+    <nd ref="1126950932" />
+    <nd ref="1126950889" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way changeset="11412370" id="99674309" timestamp="2012-04-25T08:41:11Z" uid="395255" user="MWE" version="2">
+    <nd ref="1152440210" />
+    <nd ref="1152440031" />
+    <nd ref="1152440189" />
+    <nd ref="1152439845" />
+    <nd ref="1152440060" />
+    <nd ref="1152440179" />
+    <nd ref="1152439868" />
+    <nd ref="1152439969" />
+    <nd ref="1152440210" />
+    <tag k="addr:housenumber" v="25" />
+    <tag k="addr:street" v="Rebrainstrasse" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="17905994" id="103522167" timestamp="2013-09-18T13:26:44Z" uid="351612" user="pingu-net" version="2">
+    <nd ref="1195286184" />
+    <nd ref="1195286206" />
+    <nd ref="1195286218" />
+    <nd ref="1195286223" />
+    <nd ref="1195286184" />
+    <tag k="addr:city" v="Oberengstringen" />
+    <tag k="addr:housenumber" v="50" />
+    <tag k="addr:postcode" v="8102" />
+    <tag k="addr:street" v="Rebbergstrasse" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="29576838" id="106548920" timestamp="2015-03-18T19:07:24Z" uid="1218134" user="Sarob" version="4">
+    <nd ref="1225636220" />
+    <nd ref="1225636390" />
+    <nd ref="3405867877" />
+    <nd ref="3405867879" />
+    <nd ref="3405867876" />
+    <nd ref="3405867873" />
+    <nd ref="1225637633" />
+    <nd ref="1225637206" />
+    <nd ref="3405867860" />
+    <nd ref="3405867861" />
+    <nd ref="3405867864" />
+    <nd ref="3405867863" />
+    <nd ref="3405867867" />
+    <nd ref="3405867862" />
+    <nd ref="3405867869" />
+    <nd ref="3405867871" />
+    <nd ref="1225636220" />
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="101" />
+    <tag k="addr:postcode" v="8044" />
+    <tag k="addr:street" v="Susenbergstrasse" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Stadt Zürich Open Government Data; Geomatik + Vermessung; Tiefbau- und Entsorgungsdepartement" />
+  </way>
+  <way changeset="15631555" id="109729454" timestamp="2013-04-06T20:10:39Z" uid="324188" user="ponte1112" version="2">
+    <nd ref="1255355147" />
+    <nd ref="1255355141" />
+    <nd ref="1255354966" />
+    <nd ref="1255355093" />
+    <nd ref="1255355147" />
+    <tag k="addr:city" v="Uster" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="17" />
+    <tag k="addr:postcode" v="8610" />
+    <tag k="addr:street" v="Südstrasse" />
+    <tag k="building" v="apartments" />
+  </way>
+  <way changeset="28346376" id="113002201" timestamp="2015-01-23T10:47:21Z" uid="1218134" user="Sarob" version="3">
+    <nd ref="1282904001" />
+    <nd ref="1282904210" />
+    <nd ref="1282904141" />
+    <nd ref="1282904072" />
+    <nd ref="1282904001" />
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="130" />
+    <tag k="addr:postcode" v="8006" />
+    <tag k="addr:street" v="Hadlaubstrasse" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Stadt Zürich Open Government Data; Geomatik + Vermessung; Tiefbau- und Entsorgungsdepartement" />
+  </way>
+  <way changeset="8228734" id="114573785" timestamp="2011-05-23T18:16:30Z" uid="187849" user="Hami" version="1">
+    <nd ref="1297496259" />
+    <nd ref="1297496435" />
+    <nd ref="1297496615" />
+    <nd ref="1297496502" />
+    <nd ref="1297496233" />
+    <nd ref="1297496272" />
+    <nd ref="1297496491" />
+    <nd ref="1297496369" />
+    <nd ref="1297496259" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="8393376" id="117016828" timestamp="2011-06-09T23:59:50Z" uid="178186" user="mdk" version="1">
+    <nd ref="1317988257" />
+    <nd ref="1317985510" />
+    <nd ref="1317987697" />
+    <nd ref="1317986260" />
+    <nd ref="1317988257" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Bing" />
+  </way>
+  <way changeset="8556580" id="119240045" timestamp="2011-06-26T21:09:46Z" uid="92387" user="SimonPoole" version="1">
+    <nd ref="1340408950" />
+    <nd ref="1340408970" />
+    <nd ref="1340408976" />
+    <nd ref="1340408988" />
+    <nd ref="1340408990" />
+    <nd ref="1340408978" />
+    <nd ref="1340408972" />
+    <nd ref="1340408974" />
+    <nd ref="1248671519" />
+    <nd ref="1248671489" />
+    <nd ref="1248671413" />
+    <nd ref="1248671396" />
+    <nd ref="1248671624" />
+    <nd ref="1248671565" />
+    <nd ref="1248671455" />
+    <nd ref="1248671435" />
+    <nd ref="1248671384" />
+    <nd ref="1248671398" />
+    <nd ref="1248671709" />
+    <nd ref="1248671414" />
+    <nd ref="1248671527" />
+    <nd ref="1248671439" />
+    <tag k="highway" v="track" />
+    <tag k="tracktype" v="grade3" />
+  </way>
+  <way changeset="8752979" id="122075916" timestamp="2011-07-17T21:41:49Z" uid="387241" user="jamez34" version="1">
+    <nd ref="1364931016" />
+    <nd ref="1364931019" />
+    <nd ref="1364931004" />
+    <nd ref="1364930996" />
+    <nd ref="1364931016" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="29992379" id="123625822" timestamp="2015-04-05T13:29:03Z" uid="1218134" user="Sarob" version="3">
+    <nd ref="1377881665" />
+    <nd ref="1735462252" />
+    <nd ref="1377881940" />
+    <nd ref="1377881812" />
+    <nd ref="1377881690" />
+    <nd ref="1377881709" />
+    <nd ref="1377881665" />
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="10" />
+    <tag k="addr:postcode" v="8032" />
+    <tag k="addr:street" v="Fehrenstrasse" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Stadt Zürich Open Government Data; Geomatik + Vermessung; Tiefbau- und Entsorgungsdepartement" />
+  </way>
+  <way changeset="13627883" id="126356699" timestamp="2012-10-25T14:28:24Z" uid="1004385" user="eglisoft" version="2">
+    <nd ref="1400962765" />
+    <nd ref="1400962837" />
+    <nd ref="1400962848" />
+    <nd ref="1400962768" />
+    <nd ref="1400962765" />
+    <tag k="addr:housenumber" v="33" />
+    <tag k="addr:postcode" v="8050" />
+    <tag k="addr:street" v="Herbstweg" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="9501253" id="132615368" timestamp="2011-10-08T10:52:45Z" uid="178186" user="mdk" version="2">
+    <nd ref="1458559560" />
+    <nd ref="1458559596" />
+    <nd ref="1458559603" />
+    <nd ref="1458559606" />
+    <nd ref="1458559621" />
+    <nd ref="1458559641" />
+    <nd ref="1458559682" />
+    <nd ref="1458559713" />
+    <nd ref="1458559752" />
+    <nd ref="1458559770" />
+    <nd ref="1458559792" />
+    <tag k="name" v="Paradisbach" />
+    <tag k="waterway" v="stream" />
+  </way>
+  <way changeset="33151657" id="136332064" timestamp="2015-08-06T10:37:15Z" uid="1218134" user="Sarob" version="3">
+    <nd ref="1495618888" />
+    <nd ref="1495618844" />
+    <nd ref="3683738325" />
+    <nd ref="3683737124" />
+    <nd ref="1495618926" />
+    <nd ref="3683738326" />
+    <nd ref="1495619122" />
+    <nd ref="1495618888" />
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="21" />
+    <tag k="addr:postcode" v="8053" />
+    <tag k="addr:street" v="Wirzenweid" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Stadt Zürich Open Government Data; Geomatik + Vermessung; Tiefbau- und Entsorgungsdepartement" />
+  </way>
+  <way changeset="10132285" id="141515075" timestamp="2011-12-16T16:41:10Z" uid="187849" user="Hami" version="1">
+    <nd ref="1548912125" />
+    <nd ref="1548912128" />
+    <nd ref="1548912127" />
+    <nd ref="1548912122" />
+    <nd ref="1548912125" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="10536266" id="148015305" timestamp="2012-01-30T01:52:14Z" uid="178186" user="mdk" version="1">
+    <nd ref="1611244277" />
+    <nd ref="1611244274" />
+    <nd ref="1611244281" />
+    <nd ref="1611244307" />
+    <nd ref="1611244310" />
+    <nd ref="1611244305" />
+    <nd ref="1611244302" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Bäulerwisenstrasse" />
+    <tag k="surface" v="asphalt" />
+  </way>
+  <way changeset="35164595" id="153402861" timestamp="2015-11-08T08:31:07Z" uid="1218134" user="Sarob" version="3">
+    <nd ref="1660957420" />
+    <nd ref="1660957296" />
+    <nd ref="1660957152" />
+    <nd ref="3824059966" />
+    <nd ref="3824059969" />
+    <nd ref="3824059968" />
+    <nd ref="3824059970" />
+    <nd ref="1660956875" />
+    <nd ref="3824059978" />
+    <nd ref="3824059979" />
+    <nd ref="3824059987" />
+    <nd ref="3824059989" />
+    <nd ref="1660957677" />
+    <nd ref="1660957972" />
+    <nd ref="1660957759" />
+    <nd ref="1660957780" />
+    <nd ref="3824059991" />
+    <nd ref="3824059988" />
+    <nd ref="1660957420" />
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="19" />
+    <tag k="addr:postcode" v="8053" />
+    <tag k="addr:street" v="In der Looren" />
+    <tag k="building" v="yes" />
+    <tag k="building:roof:shape" v="flat" />
+    <tag k="source" v="Stadt Zürich Open Government Data; Geomatik + Vermessung; Tiefbau- und Entsorgungsdepartement" />
+  </way>
+  <way changeset="15290561" id="156261566" timestamp="2013-03-08T08:12:22Z" uid="1234273" user="d_berger" version="3">
+    <nd ref="1685223175" />
+    <nd ref="1685223173" />
+    <nd ref="1685223171" />
+    <tag k="bench" v="no" />
+    <tag k="highway" v="platform" />
+    <tag k="name" v="Kilchberg ZH, Hornhaldenstrasse" />
+    <tag k="operator" v="VBZ" />
+    <tag k="public_transport" v="platform" />
+    <tag k="shelter" v="no" />
+  </way>
+  <way changeset="11499204" id="162107878" timestamp="2012-05-04T15:58:30Z" uid="668738" user="Chirschi74" version="2">
+    <nd ref="1740416601" />
+    <nd ref="1740397259" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way changeset="12103994" id="170017391" timestamp="2012-07-03T20:04:14Z" uid="48010" user="partim" version="1">
+    <nd ref="1811685970" />
+    <nd ref="1811685982" />
+    <nd ref="1811685984" />
+    <nd ref="1811685987" />
+    <nd ref="1811685974" />
+    <nd ref="1811685971" />
+    <nd ref="1811685970" />
+    <tag k="access" v="private" />
+    <tag k="amenity" v="parking" />
+    <tag k="capacity" v="1" />
+    <tag k="parking" v="surface" />
+  </way>
+  <way changeset="12648007" id="174949915" timestamp="2012-08-07T17:09:38Z" uid="12054" user="Martin Sauter" version="1">
+    <nd ref="1855921651" />
+    <nd ref="1855921672" />
+    <nd ref="1855921695" />
+    <nd ref="1855921697" />
+    <nd ref="1855921651" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Bing" />
+  </way>
+  <way changeset="16092192" id="182523306" timestamp="2013-05-12T09:28:29Z" uid="324188" user="ponte1112" version="2">
+    <nd ref="1928851689" />
+    <nd ref="1928851551" />
+    <nd ref="1928851594" />
+    <nd ref="1928851736" />
+    <nd ref="1928851689" />
+    <tag k="addr:city" v="Uster" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="45" />
+    <tag k="addr:postcode" v="8610" />
+    <tag k="addr:street" v="Wührestrasse" />
+    <tag k="building" v="detached" />
+  </way>
+  <way changeset="13595360" id="187066691" timestamp="2012-10-22T17:13:07Z" uid="908746" user="dulix9" version="1">
+    <nd ref="1978229738" />
+    <nd ref="1978229739" />
+    <nd ref="1978229770" />
+    <nd ref="1978229746" />
+    <nd ref="1978229714" />
+    <nd ref="1978229619" />
+    <nd ref="1978229657" />
+    <nd ref="1978229632" />
+    <nd ref="1978229738" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="bing" />
+  </way>
+  <way changeset="13893490" id="191056650" timestamp="2012-11-16T12:28:23Z" uid="12054" user="Martin Sauter" version="1">
+    <nd ref="1390317784" />
+    <nd ref="2016416965" />
+    <nd ref="2016416961" />
+    <nd ref="2016416948" />
+    <nd ref="207719225" />
+    <nd ref="1390317784" />
+    <tag k="amenity" v="parking" />
+  </way>
+  <way changeset="32877411" id="194068713" timestamp="2015-07-25T19:33:32Z" uid="257555" user="rene78" version="2">
+    <nd ref="2045812269" />
+    <nd ref="2045812297" />
+    <nd ref="2045812277" />
+    <nd ref="2045812276" />
+    <nd ref="2045812483" />
+    <nd ref="2045812486" />
+    <nd ref="2045812287" />
+    <nd ref="2045812348" />
+    <nd ref="2045812290" />
+    <nd ref="2045812360" />
+    <nd ref="2045812269" />
+    <tag k="addr:city" v="Dielsdorf" />
+    <tag k="addr:housenumber" v="2" />
+    <tag k="addr:postcode" v="8175" />
+    <tag k="addr:street" v="Ruchwiesenstrasse" />
+    <tag k="building" v="retail" />
+    <tag k="name" v="Migros Center Dielsdorf" />
+    <tag k="shop" v="mall" />
+    <tag k="source" v="bing" />
+  </way>
+  <way changeset="15079673" id="206132572" timestamp="2013-02-18T17:17:20Z" uid="92387" user="SimonPoole" version="1">
+    <nd ref="2161335661" />
+    <nd ref="2161335659" />
+    <nd ref="1196842285" />
+    <tag k="highway" v="footway" />
+    <tag k="name" v="Schulweg" />
+  </way>
+  <way changeset="15788076" id="217977180" timestamp="2013-04-19T17:23:09Z" uid="16008" user="Tric" version="1">
+    <nd ref="2272861310" />
+    <nd ref="2272861308" />
+    <nd ref="2272861303" />
+    <nd ref="2272861304" />
+    <nd ref="2272861310" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="30490113" id="223115061" timestamp="2015-04-26T03:48:09Z" uid="14390" user="BeKri" version="2">
+    <nd ref="2320508698" />
+    <nd ref="2320508742" />
+    <nd ref="2320508711" />
+    <nd ref="3477874552" />
+    <nd ref="2320508753" />
+    <nd ref="2320508698" />
+    <tag k="addr:housenumber" v="85a" />
+    <tag k="addr:postcode" v="8051" />
+    <tag k="addr:street" v="Hirzenbachstrasse" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="21801011" id="233165787" timestamp="2014-04-19T16:42:40Z" uid="1416503" user="asdf2" version="2">
+    <nd ref="280712263" />
+    <nd ref="2415141630" />
+    <tag k="access" v="yes" />
+    <tag k="bicycle" v="yes" />
+    <tag k="foot" v="yes" />
+    <tag k="highway" v="path" />
+    <tag k="surface" v="asphalt" />
+  </way>
+  <way changeset="18097342" id="239912308" timestamp="2013-09-29T18:03:06Z" uid="178186" user="mdk" version="1">
+    <nd ref="1187483565" />
+    <nd ref="2476829450" />
+    <nd ref="2476829449" />
+    <nd ref="292142080" />
+    <nd ref="2282310570" />
+    <nd ref="2476829451" />
+    <nd ref="2282310571" />
+    <nd ref="539669782" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way changeset="19088009" id="247989562" timestamp="2013-11-24T10:21:13Z" uid="324188" user="ponte1112" version="1">
+    <nd ref="2548346407" />
+    <nd ref="2548346405" />
+    <nd ref="2548346400" />
+    <nd ref="2548346403" />
+    <nd ref="2548346407" />
+    <tag k="addr:city" v="Wetzikon" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="27" />
+    <tag k="addr:postcode" v="8620" />
+    <tag k="addr:street" v="Usterstrasse" />
+    <tag k="building" v="house" />
+  </way>
+  <way changeset="20862341" id="264087669" timestamp="2014-03-02T11:25:36Z" uid="480624" user="dlu" version="1">
+    <nd ref="2697613024" />
+    <nd ref="2697613078" />
+    <nd ref="2697613104" />
+    <nd ref="2697613045" />
+    <nd ref="2697613024" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="bing" />
+  </way>
+  <way changeset="21971752" id="277510887" timestamp="2014-04-27T08:34:17Z" uid="9353" user="Schäuble Michele" version="1">
+    <nd ref="2820153473" />
+    <nd ref="2820153474" />
+    <nd ref="2820153475" />
+    <nd ref="2820153476" />
+    <nd ref="2820153477" />
+    <nd ref="2820153478" />
+    <nd ref="2820153473" />
+    <tag k="building" v="house" />
+  </way>
+  <way changeset="23074715" id="289141166" timestamp="2014-06-22T06:22:54Z" uid="178186" user="mdk" version="1">
+    <nd ref="2926962813" />
+    <nd ref="2926962818" />
+    <tag k="barrier" v="fence" />
+  </way>
+  <way changeset="25562821" id="304246209" timestamp="2014-09-20T16:22:22Z" uid="151069" user="romanh" version="1">
+    <nd ref="3087798265" />
+    <nd ref="3087798261" />
+    <nd ref="3087798262" />
+    <nd ref="3087798259" />
+    <nd ref="3087798260" />
+    <nd ref="3087798266" />
+    <nd ref="3087798265" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="26660625" id="311890262" timestamp="2014-11-09T11:32:08Z" uid="2110714" user="captain_slow" version="1">
+    <nd ref="3176508156" />
+    <nd ref="3176508157" />
+    <nd ref="3176508158" />
+    <nd ref="3176508159" />
+    <nd ref="3176508160" />
+    <nd ref="3176508561" />
+    <nd ref="3176508562" />
+    <nd ref="3176508563" />
+    <nd ref="3176508564" />
+    <nd ref="3176508565" />
+    <nd ref="3176508156" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="27802033" id="319537210" timestamp="2014-12-30T15:03:08Z" uid="1218134" user="Sarob" version="2">
+    <nd ref="3259593971" />
+    <nd ref="1046650271" />
+    <nd ref="1046650239" />
+    <nd ref="3259593972" />
+    <nd ref="3259593971" />
+    <tag k="addr:city" v="Zürich" />
+    <tag k="addr:country" v="CH" />
+    <tag k="addr:housenumber" v="98" />
+    <tag k="addr:postcode" v="8057" />
+    <tag k="addr:street" v="Seminarstrasse" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="Stadt Zürich Open Government Data; Geomatik + Vermessung; Tiefbau- und Entsorgungsdepartement" />
+  </way>
+  <way changeset="28757686" id="327474568" timestamp="2015-02-10T19:09:34Z" uid="92387" user="SimonPoole" version="1">
+    <nd ref="3342636865" />
+    <nd ref="3342636859" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="lanes:backward" v="2" />
+    <tag k="lanes:forward" v="1" />
+    <tag k="loc_ref" v="K 275" />
+    <tag k="maxspeed" v="60" />
+    <tag k="name" v="Landstrasse" />
+    <tag k="nat_ref" v="295" />
+    <tag k="ref" v="295" />
+    <tag k="turn:lanes:backward" v="left|through" />
+  </way>
+  <way changeset="29763442" id="334906916" timestamp="2015-03-26T20:47:02Z" uid="257555" user="rene78" version="1">
+    <nd ref="3420342074" />
+    <nd ref="3420342060" />
+    <nd ref="3420342205" />
+    <nd ref="3420342051" />
+    <nd ref="3420342015" />
+    <nd ref="3420342215" />
+    <nd ref="3420342052" />
+    <nd ref="3420336889" />
+    <nd ref="3420342014" />
+    <nd ref="3420342007" />
+    <nd ref="3420336890" />
+    <nd ref="3420342029" />
+    <nd ref="3420342019" />
+    <nd ref="3420342058" />
+    <nd ref="3420342055" />
+    <nd ref="3420342045" />
+    <nd ref="3420336875" />
+    <nd ref="3420342074" />
+    <tag k="landuse" v="meadow" />
+  </way>
+  <way changeset="30656534" id="341768601" timestamp="2015-04-30T11:30:37Z" uid="1218134" user="Sarob" version="1">
+    <nd ref="3488660858" />
+    <nd ref="3488660867" />
+    <nd ref="3488660861" />
+    <nd ref="3488660853" />
+    <nd ref="3488660858" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="32066800" id="354752336" timestamp="2015-06-19T06:05:43Z" uid="190676" user="highbuilder" version="1">
+    <nd ref="3604425207" />
+    <nd ref="3604423332" />
+    <nd ref="3604423356" />
+    <nd ref="3604423374" />
+    <nd ref="3604425207" />
+    <tag k="landuse" v="grass" />
+  </way>
+  <way changeset="33596351" id="367619159" timestamp="2015-08-26T13:32:22Z" uid="92387" user="SimonPoole" version="1">
+    <nd ref="3715288452" />
+    <nd ref="3715288456" />
+    <nd ref="3715288457" />
+    <nd ref="3715288453" />
+    <nd ref="3715288452" />
+    <tag k="addr:housenumber" v="245" />
+    <tag k="addr:street" v="Bachtobelstrasse" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="34434516" id="373809801" timestamp="2015-10-04T19:16:38Z" uid="178186" user="mdk" version="1">
+    <nd ref="3772182027" />
+    <nd ref="3772182028" />
+    <nd ref="3772182024" />
+    <nd ref="3772182023" />
+    <nd ref="3772182027" />
+    <tag k="access" v="private" />
+    <tag k="leisure" v="swimming_pool" />
+  </way>
+  <way changeset="35174195" id="379127138" timestamp="2015-11-08T17:31:07Z" uid="465052" user="hecktor" version="1">
+    <nd ref="3824867193" />
+    <nd ref="3824867179" />
+    <nd ref="3824867183" />
+    <nd ref="3824867198" />
+    <nd ref="3824867193" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="AGIS 2014" />
+  </way>
+  <way changeset="35629107" id="383276715" timestamp="2015-11-28T14:21:21Z" uid="178186" user="mdk" version="1">
+    <nd ref="3865091540" />
+    <nd ref="3865091542" />
+    <nd ref="3865091539" />
+    <nd ref="3865091537" />
+    <nd ref="3865091540" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="47655912" id="388105324" timestamp="2017-04-11T12:35:27Z" uid="92387" user="SimonPoole" version="2">
+    <nd ref="3913064612" />
+    <nd ref="3913064613" />
+    <nd ref="3913064611" />
+    <nd ref="3913064609" />
+    <nd ref="3913064612" />
+    <tag k="building" v="barn" />
+    <tag k="source" v="Bing" />
+  </way>
+  <way changeset="36526001" id="390974955" timestamp="2016-01-12T11:03:00Z" uid="3172019" user="nurdafur" version="1">
+    <nd ref="2059826240" />
+    <nd ref="296055483" />
+    <tag k="highway" v="secondary" />
+    <tag k="loc_ref" v="K 271" />
+    <tag k="name" v="Bremgartnerstrasse" />
+    <tag k="nat_ref" v="281" />
+    <tag k="ref" v="281" />
+    <tag k="sidewalk" v="left" />
+  </way>
+  <way changeset="37039168" id="396379508" timestamp="2016-02-06T11:41:53Z" uid="465052" user="hecktor" version="1">
+    <nd ref="3991856513" />
+    <nd ref="1758107961" />
+  </way><way changeset="38234312" id="407017057" timestamp="2016-04-01T19:01:06Z" uid="2110714" user="captain_slow" version="1">
+    <nd ref="4090524034" />
+    <nd ref="4090524035" />
+    <nd ref="4090524036" />
+    <nd ref="4090524037" />
+    <nd ref="4090524038" />
+    <nd ref="4090524039" />
+    <nd ref="4090524040" />
+    <nd ref="4090524041" />
+    <nd ref="4090524034" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="40025909" id="424990469" timestamp="2016-06-14T20:18:50Z" uid="465052" user="hecktor" version="1">
+    <nd ref="4243421999" />
+    <nd ref="4243421998" />
+    <nd ref="4243421994" />
+    <nd ref="4243421996" />
+    <nd ref="4243421999" />
+    <tag k="building" v="yes" />
+    <tag k="source" v="AGIS 2014" />
+  </way>
+  <way changeset="41295199" id="436021592" timestamp="2016-08-06T22:45:41Z" uid="14159" user="teich" version="1">
+    <nd ref="4339076893" />
+    <nd ref="4339076894" />
+    <nd ref="4339076895" />
+    <nd ref="4339076896" />
+    <nd ref="4339076893" />
+    <tag k="building" v="yes" />
+  </way>
+  <way changeset="43089943" id="449000888" timestamp="2016-10-22T21:32:57Z" uid="178186" user="mdk" version="1">
+    <nd ref="1410625076" />
+    <nd ref="262496656" />
+    <nd ref="2329317770" />
+    <tag k="bicycle" v="designated" />
+    <tag k="foot" v="designated" />
+    <tag k="footway" v="crossing" />
+    <tag k="highway" v="path" />
+    <tag k="segregated" v="no" />
+    <tag k="surface" v="paved" />
+  </way><way changeset="45311045" id="467281963" timestamp="2017-01-19T21:45:23Z" uid="465052" user="hecktor" version="1">
+    <nd ref="4619289340" />
+    <nd ref="4619289334" />
+    <nd ref="4619289320" />
+    <tag k="highway" v="track" />
+    <tag k="tracktype" v="grade3" />
+  </way>
+  <relation changeset="28017280" id="167482" timestamp="2015-01-09T11:39:47Z" uid="1416503" user="asdf2" version="14">
+    <member ref="434817104" role="" type="node" />
+    <member ref="37308891" role="" type="way" />
+    <member ref="37308894" role="" type="way" />
+    <member ref="37308893" role="" type="way" />
+    <member ref="90525056" role="" type="way" />
+    <member ref="37311337" role="" type="way" />
+    <member ref="142815522" role="" type="way" />
+    <member ref="142815516" role="" type="way" />
+    <member ref="37311336" role="" type="way" />
+    <member ref="35279760" role="" type="way" />
+    <member ref="35279765" role="" type="way" />
+    <member ref="25938443" role="" type="way" />
+    <member ref="37311341" role="" type="way" />
+    <member ref="37311342" role="" type="way" />
+    <member ref="37311343" role="" type="way" />
+    <member ref="37311348" role="" type="way" />
+    <member ref="25890192" role="" type="way" />
+    <member ref="37311349" role="" type="way" />
+    <member ref="25890190" role="" type="way" />
+    <member ref="37311350" role="" type="way" />
+    <member ref="25890188" role="" type="way" />
+    <member ref="27768871" role="" type="way" />
+    <member ref="37311355" role="" type="way" />
+    <member ref="25890186" role="" type="way" />
+    <member ref="89678637" role="" type="way" />
+    <member ref="257943883" role="" type="node" />
+    <member ref="38844909" role="" type="way" />
+    <tag k="network" v="lwn" />
+    <tag k="note" v="lwn Sennschür-Grüningen" />
+    <tag k="operator" v="ZAW" />
+    <tag k="osmc:symbol" v="yellow::yellow_diamond" />
+    <tag k="route" v="hiking" />
+    <tag k="type" v="route" />
+  </relation>
+  <relation changeset="36013587" id="5749297" timestamp="2015-12-17T17:11:01Z" uid="62440" user="dominicventus" version="1">
+    <member ref="3896885801" role="stop" type="node" />
+    <member ref="656346719" role="platform" type="node" />
+    <member ref="3896885800" role="stop" type="node" />
+    <member ref="656346717" role="platform" type="node" />
+    <tag k="public_transport" v="stop_area" />
+    <tag k="type" v="public_transport" />
+  </relation>
+  </osm>
