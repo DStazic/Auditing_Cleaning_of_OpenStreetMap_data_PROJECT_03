@@ -5,7 +5,7 @@ The following source was used to extract the data:
 http://www.openstreetmap.org/relation/1682248
 
 OSM files used for analysis:
-- zurich.osm
+- zurich.osm (compressed file zurich.osm.bz2)
 - zurich_sample.osm
 
 Scripts and files used for data auditing:
@@ -31,8 +31,10 @@ Files and scripts used for data processing  (writing of cvs files required for s
 - data.py
 
 SQL Database containing cleaned data
-- zurichOSM.db
-The database was created using the csv files located in csv_files folder and contains following tables:
+- zurichOSM.db (compressed file zurichOSM.db.bz2)
+
+cvs files used to create the database are included in csv_files.tar. The database contains following tables:
+
 1. nodes, ways, relations
 -> each table contains information on nodes, ways and relations attributes
 2. nodes_tags, ways_tags, relations_tags
