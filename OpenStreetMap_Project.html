@@ -11770,7 +11770,7 @@ Information on the general structure of the OSM XML file format can be found on 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">osm_file</span> <span class="o">=</span> <span class="s2">&quot;zurich.osm&quot;</span>
@@ -12265,7 +12265,17 @@ Following first stage, the second stage will include the revised reference datas
 
 </div>
 </div>
-</div>sqlite> CREATE TABLE tablename(column1 TYPE [constraint], column2 TYPE [constraint],...);  
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>sqlite&gt; CREATE TABLE tablename(column1 TYPE [constraint], column2 TYPE [constraint],...);</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12275,8 +12285,18 @@ Following first stage, the second stage will include the revised reference datas
 
 </div>
 </div>
-</div>sqlite> .mode csv  
-sqlite> .import filename.csv tablename
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>sqlite&gt; .mode csv<br>
+sqlite&gt; .import filename.csv tablename</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12287,7 +12307,17 @@ Delete header row from table. E.g, following command will delete the row with id
 
 </div>
 </div>
-</div>DELETE FROM relations WHERE id = 'id';
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>DELETE FROM relations WHERE id = 'id';</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12306,7 +12336,17 @@ Delete header row from table. E.g, following command will delete the row with id
 <h3 id="Number-of-nodes">Number of nodes<a class="anchor-link" href="#Number-of-nodes">&#182;</a></h3>
 </div>
 </div>
-</div>SELECT count(*) FROM nodes; 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT count(*) FROM nodes;</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12325,7 +12365,17 @@ Delete header row from table. E.g, following command will delete the row with id
 <h3 id="Number-of-ways">Number of ways<a class="anchor-link" href="#Number-of-ways">&#182;</a></h3>
 </div>
 </div>
-</div>SELECT count(*) FROM ways;  
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT count(*) FROM ways;</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12344,7 +12394,17 @@ Delete header row from table. E.g, following command will delete the row with id
 <h3 id="Number-of-relations">Number of relations<a class="anchor-link" href="#Number-of-relations">&#182;</a></h3>
 </div>
 </div>
-</div>SELECT count(*) FROM nodes;  
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT count(*) FROM nodes;</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12363,8 +12423,18 @@ Delete header row from table. E.g, following command will delete the row with id
 <h3 id="Number-of-unique-users">Number of unique users<a class="anchor-link" href="#Number-of-unique-users">&#182;</a></h3>
 </div>
 </div>
-</div>SELECT count(uni.uid) 
-FROM(SELECT uid FROM nodes UNION SELECT uid from ways UNION SELECT uid from relations) as uni;
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT count(uni.uid)<br>
+FROM(SELECT uid FROM nodes UNION SELECT uid from ways UNION SELECT uid from relations) as uni;</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12383,11 +12453,20 @@ FROM(SELECT uid FROM nodes UNION SELECT uid from ways UNION SELECT uid from rela
 <h3 id="Earliest-and-latest-contribution">Earliest and latest contribution<a class="anchor-link" href="#Earliest-and-latest-contribution">&#182;</a></h3>
 </div>
 </div>
-</div>SELECT min(entry.timestamp) 
-FROM (SELECT timestamp FROM nodes UNION SELECT timestamp FROM ways UNION SELECT timestamp FROM relations) as entry;
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT min(entry.timestamp)<br>
+FROM (SELECT timestamp FROM nodes UNION SELECT timestamp FROM ways UNION SELECT timestamp FROM relations) as entry;</p>
+<p>SELECT max(entry.timestamp)<br>
+FROM (SELECT timestamp FROM nodes UNION SELECT timestamp FROM ways UNION SELECT timestamp FROM relations) as entry;</p>
 
-SELECT max(entry.timestamp) 
-FROM (SELECT timestamp FROM nodes UNION SELECT timestamp FROM ways UNION SELECT timestamp FROM relations) as entry;
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12415,28 +12494,47 @@ FROM (SELECT timestamp FROM nodes UNION SELECT timestamp FROM ways UNION SELECT 
 <h3 id="Min,-max-and-average-contributions-per-year-and-total-contributions-for-top-10-users">Min, max and average contributions per year and total contributions for top 10 users<a class="anchor-link" href="#Min,-max-and-average-contributions-per-year-and-total-contributions-for-top-10-users">&#182;</a></h3>
 </div>
 </div>
-</div>CREATE VIEW user_contribution as SELECT user, min(num) as min_contr, max(num) as max_contr,round(avg(num),1) as avg_contr, sum(num) as total_contr
-FROM
-(SELECT entry.user,substr(entry.timestamp,1,4),count(*) as num 
-FROM (SELECT user,timestamp FROM nodes UNION ALL SELECT user,timestamp FROM ways UNION ALL SELECT user,timestamp FROM relations) as entry
-GROUP BY entry.user, substr(entry.timestamp,1,4))
-GROUP BY user
-ORDER BY sum(num); 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>CREATE VIEW user_contribution as SELECT user, min(num) as min_contr, max(num) as max_contr,round(avg(num),1) as   avg_contr, sum(num) as total_contr<br>
+FROM<br>
+(SELECT entry.user,substr(entry.timestamp,1,4),count(*) as num<br>
+FROM (SELECT user,timestamp FROM nodes UNION ALL SELECT user,timestamp FROM ways UNION ALL SELECT user,timestamp FROM relations) as entry<br>
+GROUP BY entry.user, substr(entry.timestamp,1,4))<br>
+GROUP BY user<br>
+ORDER BY sum(num);</p>
+<p>SELECT * FROM user_contribution<br>
+ORDER BY total_contr DESC<br>
+LIMIT 10;</p>
 
-SELECT * FROM user_contribution
-ORDER BY total_contr DESC
-LIMIT 10;user                 min    max      average   total
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><pre>
+user                 min    max      average   total  <br />
+SimonPoole           9810   134267   40089.4   320715<br>
+mdk                  726    57688    25946.8   233521<br>
+Sarob                104    100801   29153.4   145767<br>
+feuerstein           32     82699    20465.8   102329<br>
+hecktor              29     47097    12771.9   89403<br>
+joshx                40     28569    11007.1   77050<br>
+Hami                 1      58503    7996.9    63975<br>
+ueliw0               15     38550    9024.4    63171<br>
+ponte1112            18     49203    8415.3    58907<br>
+captain_slow         4844   23003    13494.5   53978</p>
 
-SimonPoole           9810   134267   40089.4   320715  
-mdk                  726    57688    25946.8   233521  
-Sarob                104    100801   29153.4   145767  
-feuerstein           32     82699    20465.8   102329  
-hecktor              29     47097    12771.9   89403  
-joshx                40     28569    11007.1   77050  
-Hami                 1      58503    7996.9    63975  
-ueliw0               15     38550    9024.4    63171  
-ponte1112            18     49203    8415.3    58907  
-captain_slow         4844   23003    13494.5   53978
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12446,12 +12544,22 @@ captain_slow         4844   23003    13494.5   53978
 
 </div>
 </div>
-</div>SELECT sum(percentage) FROM 
-(SELECT user,ROUND( CAST((total_contr*100) as REAL)/(SELECT sum(total_contr) FROM user_contribution),2) as percentage
-FROM user_contribution group by user
-ORDER by percentage DESC
-LIMIT 24
-);
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT sum(percentage) FROM<br>
+(SELECT user,ROUND( CAST((total_contr*100) as REAL)/(SELECT sum(total_contr) FROM user_contribution),2) as percentage<br>
+FROM user_contribution group by user<br>
+ORDER by percentage DESC<br>
+LIMIT 24<br>
+);</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12473,10 +12581,20 @@ LIMIT 24
 <h3 id="Number-of-restaurants,-cafes,-bars,-pubs-and-top-20-cuisines">Number of restaurants, cafes, bars, pubs and top 20 cuisines<a class="anchor-link" href="#Number-of-restaurants,-cafes,-bars,-pubs-and-top-20-cuisines">&#182;</a></h3>
 </div>
 </div>
-</div>SELECT value,count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags)
-WHERE key = 'amenity' 
-AND value IN ('restaurant', 'bar','cafe','pub');
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT value,count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags)<br>
+WHERE key = 'amenity'<br>
+AND value IN ('restaurant', 'bar','cafe','pub');</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12495,15 +12613,25 @@ AND value IN ('restaurant', 'bar','cafe','pub');
 <h3 id="Number-of-restaurants,-cafes,-bars,-pubs-and-top-20-cuisines-in-Z&#252;rich">Number of restaurants, cafes, bars, pubs and top 20 cuisines in Z&#252;rich<a class="anchor-link" href="#Number-of-restaurants,-cafes,-bars,-pubs-and-top-20-cuisines-in-Z&#252;rich">&#182;</a></h3>
 </div>
 </div>
-</div>SELECT a.key,b.key, a.value, b.value, count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-WHERE a.key = 'amenity'
-AND a.value IN ('restaurant', 'bar','cafe','pub')
-AND b.key = 'city'
-AND b.value = 'Zürich';
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT a.key,b.key, a.value, b.value, count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT * from relations_tags) as b<br>
+ON a.id = b.id<br>
+WHERE a.key = 'amenity'<br>
+AND a.value IN ('restaurant', 'bar','cafe','pub')<br>
+AND b.key = 'city'<br>
+AND b.value = 'Zürich';</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12513,22 +12641,40 @@ AND b.value = 'Zürich';
 
 </div>
 </div>
-</div>SELECT a.key,b.key, a.value, b.value, count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as c
-ON b.id = c.id
-WHERE a.key = 'amenity'
-AND b.key IN ('cuisine','diet')
-AND a.value IN ('restaurant', 'bar','cafe','pub')
-AND c.key = 'city'
-AND c.value = 'Zürich'
-GROUP BY b.value
-ORDER BY count(*) DESC 
-LIMIT 21;italian       | 69           american   | 7
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT a.key,b.key, a.value, b.value, count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT <em> from relations_tags) as b<br>
+ON a.id = b.id<br>
+JOIN<br>
+(SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as c<br>
+ON b.id = c.id<br>
+WHERE a.key = 'amenity'<br>
+AND b.key IN ('cuisine','diet')<br>
+AND a.value IN ('restaurant', 'bar','cafe','pub')<br>
+AND c.key = 'city'<br>
+AND c.value = 'Zürich'<br>
+GROUP BY b.value<br>
+ORDER BY count(*) DESC<br>
+LIMIT 21;</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><pre>
+Cuisine         Count        Cuisine      Count<br />
+italian       | 69           american   | 7
 regional      | 47           burger     | 6
 coffee_shop   | 28           lebanese   | 6
 pizza         | 24           sushi      | 6
@@ -12538,7 +12684,11 @@ international | 14           spanish    | 5
 thai          | 14           swiss      | 4
 japanese      | 10           french     | 3
 chinese       | 9            sandwich   | 3
-                             brazilian  | 2
+                             brazilian  | 2</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12558,23 +12708,43 @@ chinese       | 9            sandwich   | 3
 <h3 id="Number-of-restaurants,-cafes,-bars,-pubs-and-top-3-cuisines-per-district">Number of restaurants, cafes, bars, pubs and top 3 cuisines per district<a class="anchor-link" href="#Number-of-restaurants,-cafes,-bars,-pubs-and-top-3-cuisines-per-district">&#182;</a></h3>
 </div>
 </div>
-</div>SELECT a.key,b.key, a.value, b.value, count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-WHERE a.key = 'amenity'
-AND b.key = 'district'
-AND a.value IN ('restaurant', 'bar','cafe','pub')
-GROUP BY b.value
-ORDER BY count(*) DESC; district   count     district   count
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT a.key,b.key, a.value, b.value, count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT <em> from relations_tags) as b<br>
+ON a.id = b.id<br>
+WHERE a.key = 'amenity'<br>
+AND b.key = 'district'<br>
+AND a.value IN ('restaurant', 'bar','cafe','pub')<br>
+GROUP BY b.value<br>
+ORDER BY count(</em>) DESC;</p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><pre>
+district   count     district   count<br />
 Kreis 1    150       Kreis 11   44
 Kreis 4    135       Kreis 2    37
 Kreis 5    59        Kreis 7    26
 Kreis 8    54        Kreis 9    25
 Kreis 6    46        Kreis 10   20
-Kreis 3    45        Kreis 12   7
+Kreis 3    45        Kreis 12   7</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12584,35 +12754,49 @@ Kreis 3    45        Kreis 12   7
 
 </div>
 </div>
-</div>CREATE VIEW cuisine_district as SELECT comb.dis_name,comb.cui_name,num
-FROM(
-SELECT a.key as amenity,b.key as district,c.key as cuisine, a.value as restaurant, b.value as dis_name,c.value as cui_name, count(*) as num 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-JOIN
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as c
-ON b.id = c.id
-WHERE a.key = 'amenity'
-AND b.key = 'district'
-AND a.value IN ('restaurant', 'bar','cafe','pub')
-AND c.key IN ('cuisine','diet')
-GROUP BY b.value, c.value
-ORDER BY b.value,num DESC) as comb;
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>CREATE VIEW cuisine_district as SELECT comb.dis_name,comb.cui_name,num<br>
+FROM(<br>
+SELECT a.key as amenity,b.key as district,c.key as cuisine, a.value as restaurant, b.value as dis_name,c.value as   cui_name, count(<em>) as num<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT <em> from relations_tags) as b<br>
+ON a.id = b.id<br>
+JOIN<br>
+(SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as c<br>
+ON b.id = c.id<br>
+WHERE a.key = 'amenity'<br>
+AND b.key = 'district'<br>
+AND a.value IN ('restaurant', 'bar','cafe','pub')<br>
+AND c.key IN ('cuisine','diet')<br>
+GROUP BY b.value, c.value<br>
+ORDER BY b.value,num DESC) as comb;</p>
+<p>SELECT *<br>
+FROM cuisine_district AS a<br>
+WHERE a.cui_name IN (<br>
+    SELECT b.cui_name<br>
+    FROM cuisine_district AS b<br>
+    WHERE a.dis_name = b.dis_name<br>
+    ORDER BY b.num DESC<br>
+    LIMIT 4<br>
+    )<br>
+ORDER BY CAST(substr(dis_name,7) as INTEGER);</p>
 
-
-SELECT *
-FROM cuisine_district AS a
-WHERE a.cui_name IN (
-    SELECT b.cui_name
-    FROM cuisine_district AS b
-    WHERE a.dis_name = b.dis_name
-    ORDER BY b.num DESC
-    LIMIT 4
-    )
-ORDER BY CAST(substr(dis_name,7) as INTEGER); district  cuisine         count       district  cuisine         count       district   cuisine         count
-
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><pre>
+district  cuisine         count       district  cuisine         count       district   cuisine         count <br />
 Kreis 1 | italian       | 10          Kreis 5 | indian        | 6           Kreis 9  | pizza         | 3
 Kreis 1 | regional      | 6           Kreis 5 | regional      | 5           Kreis 9  | regional      | 3
 Kreis 1 | asian         | 5           Kreis 5 | italian       | 4           Kreis 9  | international | 2
@@ -12624,7 +12808,11 @@ Kreis 3 | chinese       | 2           Kreis 7 | regional      | 3           Krei
 Kreis 3 | international | 2           Kreis 7 | american      | 1           Kreis 11 | indian        | 2
 Kreis 4 | italian       | 13          Kreis 8 | italian       | 11          Kreis 12 | bagels        | 1
 Kreis 4 | asian         | 8           Kreis 8 | french        | 2
-Kreis 4 | indian        | 7           Kreis 8 | greek         | 1
+Kreis 4 | indian        | 7           Kreis 8 | greek         | 1</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12645,33 +12833,63 @@ Kreis 4 | indian        | 7           Kreis 8 | greek         | 1
 
 </div>
 </div>
-</div>SELECT b.value, count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-WHERE a.key = 'amenity'
-AND b.key = 'district'
-AND a.value IN ('school','college','library','university','kindergarten','doctors','hospital','pharmacy','clinic','dentist','bank','atm', 'car_sharing', 'bus_station')
-GROUP BY b.value
-ORDER BY count(*) DESC; SELECT count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-WHERE a.key = 'amenity'
-AND b.key = 'city'
-AND b.value = 'Zürich'
-AND a.value IN ('school','college','library','university','kindergarten','doctors','hospital','pharmacy','clinic','dentist','bank','atm', 'car_sharing', 'bus_station')
-GROUP BY b.value
-ORDER BY count(*) DESC; district   count       district  count
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT b.value, count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT <em> from relations_tags) as b<br>
+ON a.id = b.id<br>
+WHERE a.key = 'amenity'<br>
+AND b.key = 'district'<br>
+AND a.value IN   ('school','college','library','university','kindergarten','doctors','hospital','pharmacy','clinic','dentist','bank','atm', 'car_sharing', 'bus_station')<br>
+GROUP BY b.value<br>
+ORDER BY count(</em>) DESC;</p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT <em> from relations_tags) as b<br>
+ON a.id = b.id<br>
+WHERE a.key = 'amenity'<br>
+AND b.key = 'city'<br>
+AND b.value = 'Zürich'<br>
+AND a.value IN   ('school','college','library','university','kindergarten','doctors','hospital','pharmacy','clinic','dentist','bank','atm', 'car_sharing', 'bus_station')<br>
+GROUP BY b.value<br>
+ORDER BY count(</em>) DESC;</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><pre>
+district   count       district  count <br />
 Kreis 1  | 60          Kreis 9 | 35
 Kreis 11 | 47          Kreis 2 | 34
 Kreis 7  | 47          Kreis 3 | 31
 Kreis 6  | 46          Kreis 8 | 28
 Kreis 12 | 40          Kreis 4 | 22
-Kreis 10 | 36          Kreis 5 | 13
+Kreis 10 | 36          Kreis 5 | 13</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12691,23 +12909,43 @@ Kreis 10 | 36          Kreis 5 | 13
 
 </div>
 </div>
-</div>SELECT b.value, count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-WHERE a.key IN ('leisure','sport','amenity')
-AND b.key = 'district'
-AND a.value IN ('cinema','theatre','park','dance','stadium','swimming_area','swimming_pool','sports_centre','basketball','beachvolleyball','soccer','swimming','cycling')
-GROUP BY b.value
-ORDER BY count(*) DESC; district   count     district   count
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT b.value, count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT <em> from relations_tags) as b<br>
+ON a.id = b.id<br>
+WHERE a.key IN ('leisure','sport','amenity')<br>
+AND b.key = 'district'<br>
+AND a.value IN   ('cinema','theatre','park','dance','stadium','swimming_area','swimming_pool','sports_centre','basketball','beachvolleyball','soccer','swimming','cycling')<br>
+GROUP BY b.value<br>
+ORDER BY count(</em>) DESC;</p>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><pre>
+district   count     district   count  <br />
 Kreis 1  | 18        Kreis 4  | 4
 Kreis 6  | 9         Kreis 5  | 4
 Kreis 9  | 8         Kreis 8  | 4
 Kreis 3  | 6         Kreis 2  | 3
 Kreis 11 | 4         Kreis 7  | 3
-Kreis 12 | 4         Kreis 10 | 2
+Kreis 12 | 4         Kreis 10 | 2</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12727,23 +12965,34 @@ Kreis 12 | 4         Kreis 10 | 2
 
 </div>
 </div>
-</div>SELECT b.value, count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-WHERE a.key = 'shop'
-AND b.key = 'district'
-AND a.value IN ('supermarket','bakery','convenience','butcher','shoes','books','chemist','deli','greengrocer','pastry' )
-GROUP BY b.value
-ORDER BY count(*) DESC; 
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>district   count     district   count</p>
-<p>Kreis 1  | 38        Kreis 5  | 19
+<p>SELECT b.value, count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT <em> from relations_tags) as b<br>
+ON a.id = b.id<br>
+WHERE a.key = 'shop'<br>
+AND b.key = 'district'<br>
+AND a.value IN ('supermarket','bakery','convenience','butcher','shoes','books','chemist','deli','greengrocer','pastry' )<br>
+GROUP BY b.value<br>
+ORDER BY count(</em>) DESC;</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><pre>
+district   count     district   count <br />
+Kreis 1  | 38        Kreis 5  | 19
 Kreis 11 | 38        Kreis 3  | 18
 Kreis 2  | 30        Kreis 8  | 18
 Kreis 9  | 28        Kreis 10 | 16
@@ -12775,14 +13024,24 @@ Maybe the restaurants themselves can contribute to encourage the user community 
 
 </div>
 </div>
-</div>SELECT b.value, count(*) 
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-JOIN 
-(SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as b
-ON a.id = b.id
-WHERE a.key = 'shop'
-AND b.key = 'city'
-AND b.value = 'Zürich';
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT b.value, count(<em>)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+JOIN<br>
+(SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT * from relations_tags) as b<br>
+ON a.id = b.id<br>
+WHERE a.key = 'shop'<br>
+AND b.key = 'city'<br>
+AND b.value = 'Zürich';</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12804,10 +13063,20 @@ Only 45% of all city tags actually correspond to the city of Zürich (see query 
 
 </div>
 </div>
-</div>SELECT ROUND(AVG(CASE WHEN a.value = 'Zürich' then 1.0 ELSE 0 END)*100,2)
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags) as a 
-WHERE a.key = 'city'
-AND a.type = 'addr';
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT ROUND(AVG(CASE WHEN a.value = 'Zürich' then 1.0 ELSE 0 END)<em>100,2)<br>
+FROM (SELECT </em> FROM nodes_tags UNION ALL SELECT <em> FROM ways_tags UNION ALL SELECT </em> from relations_tags) as a<br>
+WHERE a.key = 'city'<br>
+AND a.type = 'addr';</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12817,14 +13086,24 @@ AND a.type = 'addr';
 
 </div>
 </div>
-</div>SELECT count(*)
-FROM 
-nodes_tags JOIN nodes
-ON nodes_tags.id = nodes.id
-WHERE key = 'city'
-AND type = 'addr'
-AND value = 'Zürich'
-AND (lon < 8.4481 OR lon > 8.627 OR lat < 47.3381 OR lat > 47.4351);
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT count(*)<br>
+FROM<br>
+nodes_tags JOIN nodes<br>
+ON nodes_tags.id = nodes.id<br>
+WHERE key = 'city'<br>
+AND type = 'addr'<br>
+AND value = 'Zürich'<br>
+AND (lon &lt; 8.4481 OR lon &gt; 8.627 OR lat &lt; 47.3381 OR lat &gt; 47.4351);</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12837,12 +13116,29 @@ Nevertheless, the big problem is that no objective control could be installed fo
 
 </div>
 </div>
-</div>SELECT DISTINCT(value)
-FROM (SELECT * FROM nodes_tags UNION ALL SELECT * FROM ways_tags UNION ALL SELECT * from relations_tags)
-WHERE key = 'street' 
-AND value LIKE '%gass%'
-AND value NOT LIKE '%gasse%'
-OR value LIKE '%Chlöster%';Bike Shop Chlösterli        Chlösterlistrasse
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SELECT DISTINCT(value)<br>
+FROM (SELECT <em> FROM nodes_tags UNION ALL SELECT </em> FROM ways_tags UNION ALL SELECT * from relations_tags)<br>
+WHERE key = 'street'<br>
+AND value LIKE '%gass%'<br>
+AND value NOT LIKE '%gasse%'<br>
+OR value LIKE '%Chlöster%';</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><pre>
+Bike Shop Chlösterli        Chlösterlistrasse
 Chriesigass                 Chrattengass
 Foregass                    Chilegass
 Im Chlösterli               Büelgass
@@ -12852,7 +13148,11 @@ Im Gassacher                Stedtligass
 Gassacherstrasse            Gubelgass
 Gassäckerstrasse            Hohlgass
 Schmittegass                Chüegass
-                            Steigass
+                            Steigass</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
